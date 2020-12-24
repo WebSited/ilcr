@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(55, 64, 85, 0.9);
+  background: rgba(18, 138, 24, 0.9);
   padding: 15px 0;
 }
 
@@ -705,7 +705,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #414c64;
+  background: #198a28;
   background-size: cover;
   padding: 60px 0;
 }
