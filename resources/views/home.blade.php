@@ -48,8 +48,8 @@
         <ul>
           <li class="active"><a href="">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#team">Team</a></li>
           <li><a href="#programmes">Programmes</a></li>
+          <li><a href="#team">Team</a></li>
           <li><a href="#admission">Admission</a></li>
           <li class="drop-down"><a href="">Centres</a>
             <ul>
@@ -87,7 +87,7 @@
 
       <div class="section-title">
           <h2>About ILCR</h2>
-          <p>Land disputes, land degradations, loss of tenure, climate change actions as a result of low capacity, poor implementation of polices and low risk awareness and emergency preparedness are major re-occurring issues in Nigeria and other developing nations. In view of capacity related challenges including skills and expertise, the Africa Union Member States through the African Union Declaration on Land Issues and Challenges in Africa adopted in 2009 were urged to “build adequate human, financial, technical capacities to support land policy development and implementation through coordinating activities towards strengthening capacities of member universities and research institutions for improved land governance on the continent amongst others. 
+          <p class="about_us">Land disputes, land degradations, loss of tenure, climate change actions as a result of low capacity, poor implementation of polices and low risk awareness and emergency preparedness are major re-occurring issues in Nigeria and other developing nations. In view of capacity related challenges including skills and expertise, the Africa Union Member States through the African Union Declaration on Land Issues and Challenges in Africa adopted in 2009 were urged to “build adequate human, financial, technical capacities to support land policy development and implementation through coordinating activities towards strengthening capacities of member universities and research institutions for improved land governance on the continent amongst others. 
              On the other hand, disaster occurrence is on the increase in Nigeria and most of disasters affects communities far away from where government agencies responsible for disaster management are located, the ability of community members to respond before any conventional agencies, like NEMA, SEMA, LEMA, Fire service, Road safety, etc, arrives can save lives and properties, therefore, to reduce the impact of disasters, communities need to be aware, prepare for emergencies and continuously work together. The implementation of the UN Environment’s Awareness and Preparedness for Emergency at Local Level (APELL) Approach  seeks to build human capacity in Nigerian communities to reduce disaster impact through identification and creation of awareness of hazards and risks, initiating measures for risk reduction, accident prevention and mitigation and developing coordinated preparedness among the local industry, authorities and community by adopting a systematic approach ( Bottom - Up approach) and working towards sustainability through a national network of experts.
              In view of the foregoing, the Institute for Land and Community Resilience was established to build human and community capacity through formal and informal education and awareness creation among local communities in Nigeria on land and emergencies related matters.
           </p>
@@ -96,43 +96,12 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts section-bg">
-      <div class="container">
-
-        <div class="row counters">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">232</span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">521</span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,463</span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">15</span>
-            <p>Hard Workers</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- ======= Programmes Section ======= -->
+    <section id="programmes" class="services">
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
+          <h2>Programmes</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -215,77 +184,6 @@
 
       </div>
     </section><!-- End Cta Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="owl-carousel testimonials-carousel">
-
-          <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="{{ asset('img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="{{ asset('img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="{{ asset('img/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="{{ asset('img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="{{ asset('img/testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -393,21 +291,21 @@
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Federal University of Technology Main Campus, Gidan-Kwano, Minna, Nigeria</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
+                  <p>ilcr@futminna.edu.ng</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                  <p>+234 70 3641 1810<br>+234 80 2213 5691</p>
                 </div>
               </div>
             </div>
