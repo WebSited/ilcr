@@ -22,8 +22,8 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="{{ asset('admin_assets/images/logo.png')}}" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{ asset('admin_assets/images/logo-mini.svg')}}" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="{{ ('admin.home') }} ">ILCR</a>
+        <a class="navbar-brand brand-logo-mini" href="{{ ('admin.home') }}">ILCR</a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -54,7 +54,7 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="{{ asset('admin_assets_assets/vendors/base/vendor.bundle.base.js')}}"></script>
+  <script src="{{ asset('admin_assets/vendors/base/vendor.bundle.base.js')}}"></script>
   <!-- endinject -->
   <!-- Plugin js for this page-->
   <script src="{{ asset('admin_assets/vendors/chart.js/Chart.min.js')}}"></script>

@@ -18,7 +18,7 @@ Route::get('/about', 'PagesController@about')->name('about');
 
 Auth::routes();
 
-Route::get('/admin', 'HomeController@index')->name('home');
+Route::get('/admin', 'HomeController@index')->name('admin.home');
 
 //Team section
 Route::get('/admin/team', 'TeamController@index')->name('admin.team');
