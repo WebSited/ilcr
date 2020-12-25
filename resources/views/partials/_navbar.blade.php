@@ -10,8 +10,8 @@
       <ul>
         <li class="active"><a href="{{ route('home') }}">Home</a></li>
         <li><a href="#about">About Us</a></li>
-        <li><a href="#team">Team</a></li>
         <li><a href="#services">Programmes</a></li>
+        <li><a href="#team">Team</a></li>
         <li><a href="#admission">Admission</a></li>
         <li class="drop-down"><a href="">Centres</a>
           <ul>

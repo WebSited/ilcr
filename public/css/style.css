@@ -71,11 +71,11 @@
     }
     
     #header.header-transparent {
-        background: #708238;
+        background: transparent;
     }
     
     #header.header-scrolled {
-        background: rgba(55, 64, 85, 0.9);
+        background: rgba(26, 128, 43, 0.9);
         padding: 15px 0;
     }
     

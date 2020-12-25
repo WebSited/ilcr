@@ -1,7 +1,11 @@
 @extends('partials.master')
 
 @section('content')
-
+<style>
+  #header.header-transparent {
+        background: rgba(26, 128, 43, 0.9);
+    }
+</style>
 <!-- ======= About Section ======= -->
     <section id="about" class="about m-5 ">
       <div class="container">
