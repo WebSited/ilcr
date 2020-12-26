@@ -17,8 +17,16 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Team Members</h4>
+                  @if(Session::has('success'))
+                  <div class="alert  alert-success alert-dismissible fade show">
+                      <span class="badge badge-pill badge-success">Success</span>
+                      {{ Session::get('success') }}
+                  </div>
+                  @endif
                  
+                  @if($team->count() > 0)
                   <div class="table-responsive">
+                    
                     <table class="table table-striped">
                       <thead>
                         <tr>
@@ -40,26 +48,33 @@
                         </tr>
                       </thead>
                       <tbody>
+                        @foreach($team as $row)
                         <tr>
                           <td class="py-1">
-                            <img src="{{ asset('admin_assets/images/faces/face1.jpg')}}" alt="image"/>
+                            <img src="{{ asset('/img/teams'.$row->img) }}" alt="image"/>
                           </td>
                           <td>
-                            Prof. Kemiki O.A
+                            {{ $row->name }}
                           </td>
                           <td>
-                            Associate Prof
+                            {{ $row->rank }}
                           </td>
                           <td>
-                            https.//staff.futminna.edu.ng...
+                            {{ $row->website }}
                           </td>
                           <td>
-                            <a href="#"> Edit |</a><a href="#"> Delete</a>
+                            <a href="{{ route('edit.team', ['id' => $row->id]) }}"> Edit |</a><a href="/admin/team/delete/{{ $row->id }}"> Delete</a>
+                          </td>
                         </tr>
+                         @endforeach
                         
                       </tbody>
                     </table>
+                    
                   </div>
+                  @else
+                        <h6 class="text-center text-danger">No Team Members</h6>
+                    @endif
                 </div>
               </div>
             </div>

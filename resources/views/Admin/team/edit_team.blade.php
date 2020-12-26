@@ -21,6 +21,7 @@
                 @endforeach
 
       <form action="{{ route('update.team', ['id' => $team->id]) }}" method="POST" enctype="multipart/form-data" class="forms-sample" >
+        @csrf
         <div class="form-group">
           <label for="exampleInputName1">Name</label>
           <input type="text" class="form-control" name="name" value="{{ $team->name }}" id="exampleInputName1" placeholder="Name" required>
@@ -33,17 +34,15 @@
           <label for="exampleInputName1">Website</label>
           <input type="text" class="form-control" name="website" id="exampleInputName1" value="{{ $team->website }}" placeholder="Website" required>
         </div>
+
         <div class="form-group">
-          <label>Picture upload</label>
-          <input type="file" name="image" class="file-upload-default" required>
-          <div class="input-group col-xs-12">
-            <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image" value="{{ $team->image }}">
-            <span class="input-group-append">
-              <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
-              <small class="form-text text-success">Only if you want to update the current image</small>
-            </span>
-          </div>
-        </div>
+          <label>File upload</label>
+          <br>
+                <div class="col-12 col-md-9"><input type="file" id="img" name="img" class="form-control-file"></div>
+                <small class="form-text text-success">Only if you want to update the current image</small>
+            </div>
+
+        
         <button type="submit" class="btn btn-primary mr-2">Submit</button>
         <button class="btn btn-light">Cancel</button>
       </form>

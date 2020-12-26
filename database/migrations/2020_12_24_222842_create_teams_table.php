@@ -18,7 +18,7 @@ class CreateTeamsTable extends Migration
             $table->string('name');
             $table->string('rank');
             $table->string('website');
-            $table->string('image');
+            $table->string('img');
             $table->timestamps();
         });
     }

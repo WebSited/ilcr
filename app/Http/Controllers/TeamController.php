@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Team;
+use Image;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class TeamController extends Controller
 {
@@ -12,9 +15,16 @@ class TeamController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
-         return view('admin.team.team');
+        $team = DB::table('teams')->orderBy('created_at', 'desc')->get();
+        return view('admin.team.team', ['team' => $team]);
     }
 
     /**
@@ -39,11 +49,11 @@ class TeamController extends Controller
             'name' => 'required',
             'rank' => 'required',
             'website' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg'
+            'img' => 'required|image|mimes:jpeg,png,jpg'
         ]);
 
-        $path = public_path().'admin_assets/images/teams/';      
-        $originalImage = $request->file('image');
+        $path = public_path().'/img/teams';      
+        $originalImage = $request->file('img');
         $name = time().$originalImage->getClientOriginalName();
         $image = Image::make($originalImage);
         $image->resize(718, 486);
@@ -54,7 +64,7 @@ class TeamController extends Controller
         $team->name = $request->name;
         $team->rank = $request->rank;
         $team->website = $request->website;
-        $team->image = $name;
+        $team->img = $name;
 
         $team->save(); 
 
@@ -68,7 +78,7 @@ class TeamController extends Controller
      * @param  \App\Team  $team
      * @return \Illuminate\Http\Response
      */
-    public function show(Team $team)
+    public function show($team)
     {
         //
     }
@@ -92,9 +102,33 @@ class TeamController extends Controller
      * @param  \App\Team  $team
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Team $team)
+    public function update(Request $request, $id)
     {
-        //
+         $team = Team::find($id);
+
+        $this->validate($request, [
+            'name' => 'required',
+            'rank' => 'required',
+            'website' => 'required',
+
+        ]);
+
+        if ($request->hasFile('img')){ 
+
+        $path = public_path().'/img/teams';      
+        $originalImage = $request->file('img');
+        $name = time().$originalImage->getClientOriginalName();
+        $image = Image::make($originalImage);
+        $image->resize(718, 486);
+        $image->save($path.$name); 
+        $team->img = $name; 
+        }
+        $team->name = $request->name;
+        $team->rank = $request->rank;
+        $team->website = $request->website;
+        $team->save();
+
+        return redirect('/admin/team')->with('success', 'Member updated successfully'); 
     }
 
     /**
@@ -103,8 +137,9 @@ class TeamController extends Controller
      * @param  \App\Team  $team
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Team $team)
+    public function destroy($id)
     {
-        //
+        team::where('id', $id)->delete();   
+     return redirect('/admin/team')->with('success', 'Team Member Deleted successfully');
     }
 }
