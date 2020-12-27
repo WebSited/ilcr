@@ -10,7 +10,7 @@
       <ul>
         <li class="active"><a href="{{ route('home') }}">Home</a></li>
         <li><a href="{{ route('home') }}#about">About Us</a></li>
-        <li><a href="{{ route('home') }}#services">Programmes and Admission</a></li>
+        <li><a href="{{ route('home') }}#services">Programmes</a></li>
         <li><a href="{{ route('home') }}#team">Team</a></li>
         <li class="drop-down"><a href="">Centres</a>
           <ul>
@@ -23,6 +23,7 @@
           </ul>
         </li>
         <li><a href="#contact">Contact Us</a></li>
+        <li><a href="{{ route('activities') }}">Activities</a></li>
 
       </ul>
     </nav><!-- .nav-menu -->
