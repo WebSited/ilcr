@@ -29,7 +29,7 @@
         <div class="form-group">
           <label for="exampleInputName1">Activity</label>
           <textarea name="body" id="editor1" rows="10" cols="80">
-            {{ old('body') }}
+            {{ $activity->body }}
         </textarea>
         <script>
             CKEDITOR.replace( 'editor1' );

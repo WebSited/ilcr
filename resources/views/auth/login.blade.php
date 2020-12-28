@@ -52,10 +52,9 @@
                     @enderror
                 </div>
                 <div class="mt-3" align="center">
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary btn-rounded btn-fw">
                         {{ __('Login') }}
                     </button>
-                    
                 </div>
                 
               </form>
