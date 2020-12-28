@@ -1,7 +1,7 @@
  <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="{{ route('admin.home') }} ">
               <i class="ti-shield menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -28,10 +28,22 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Activities </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login-2.html">Add Activity</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.activity') }}"> Activities </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.activity.create') }}">Add Activity</a></li>
               </ul>
             </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();"><i class="ti-power-off text-primary" style="padding-right: 20px"> </i>
+                {{ __('Logout') }}
+            </a>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
           </li>
         </ul>
       </nav>

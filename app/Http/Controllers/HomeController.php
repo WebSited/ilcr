@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Team;
+use App\Activity;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
 
 class HomeController extends Controller
 {
@@ -15,7 +19,10 @@ class HomeController extends Controller
     // {
     //     $this->middleware('auth');
     // }
-
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Show the application dashboard.
      *
@@ -23,6 +30,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('admin.home');
+        $team = DB::table('teams')->get();
+        $activity = DB::table('activities')->get();
+        return view('admin.home', compact('team', 'activity'));
     }
 }

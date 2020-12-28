@@ -104,7 +104,7 @@ class TeamController extends Controller
      */
     public function update(Request $request, $id)
     {
-         $team = Team::find($id);
+        $team = Team::find($id);
 
         $this->validate($request, [
             'name' => 'required',
@@ -140,6 +140,6 @@ class TeamController extends Controller
     public function destroy($id)
     {
         team::where('id', $id)->delete();   
-     return redirect('/admin/team')->with('success', 'Team Member Deleted successfully');
+        return redirect('/admin/team')->with('success', 'Team Member Deleted successfully');
     }
 }

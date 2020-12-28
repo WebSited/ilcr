@@ -16,14 +16,15 @@
   <link rel="stylesheet" href="{{ asset('admin_assets/css/style.css')}}">
   <!-- endinject -->
   <link rel="shortcut icon" href="{{ asset('admin_assets/images/favicon.png')}}" />
+  <script src="{{asset('ckeditor/ckeditor.js')}}"></script>
 </head>
 <body>
   <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="{{ ('admin.home') }} ">ILCR</a>
-        <a class="navbar-brand brand-logo-mini" href="{{ ('admin.home') }}">ILCR</a>
+        <a class="navbar-brand brand-logo mr-5" href="{{ route('admin.home') }}">ILCR</a>
+        <a class="navbar-brand brand-logo-mini" href="{{ route('admin.home') }}">ILCR</a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
