@@ -16,8 +16,8 @@
           <ul>
             <li class="drop-down"><a href="#">Centre for Land Governance</a>
               <ul>
-                <li><a href="#">M. Tech Land Management</a></li>
-                <li><a href="#">PGD Land Management</a></li>
+                <li><a href="#">M. Tech Land Governance</a></li>
+                <li><a href="#">PGD Land Governance</a></li>
               </ul>
             </li>
           </ul>

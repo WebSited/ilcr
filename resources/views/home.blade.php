@@ -62,8 +62,8 @@
                         </div>
                         <h4 class="pt-3"><a href=""><b>POSTGRADUATE DIPLOMAS</b></a></h4>
                         <ul style="list-style-type: none">
-                            <li>PGD in Land Management</li>
-                            <li>PGD in Community Emergency</li>
+                            <li>PGD in Land Governance</li>
+                            <li>PGD in Facility Management</li>
                         </ul>
                         <a href="" class="btn btn-success text-white">More Info</a>
                     </div>
@@ -77,8 +77,8 @@
                         </div>
                         <h4 class="pt-3"><a href=""><b>MASTERS DEGREE</b></a></h4>
                         <ul style="list-style-type: none" class="ml-0">
-                            <li>M.Tech in Land Management</li>
-                            <li>M.Tech in Community Emergency</li>
+                            <li>M.Tech in Land Governance</li>
+                            <li>M.Tech in Facility Management</li>
                         </ul>
                         <a href="" class="btn btn-success text-white">More Info</a>
                     </div>
@@ -129,7 +129,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Prof. Kemiki O.A</h4>
-                            <span> <b> Rank: </b> Associate Professor</span>
+                            <span> <b>Consultant</b></span>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="member-info">
                             <h4>: Dr. (Mrs) N.I. Popoola</h4>
-                            <span><b>Rank: </b> Senior Lecturer</span>
+                            <span> <b>Consultant</b></span>
                         </div>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Dr. Abdulquadri Ade., Bilau</h4>
-                            <span><b>Rank: </b> Lecturer</span>
+                            <span> <b>Consultant</b></span>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="member-info">
                             <h4>MORENIKEJI, Gbenga</h4>
-                            <span><b>Rank: </b> Lecturer</span>
+                            <span> <b>Consultant</b></span>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Dr. ODUMOSU, Joseph Olayemi </h4>
-                            <span><b>Rank: </b> Lecturer</span>
+                            <span><b>Consultant</b></span>
                         </div>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                         </div>
                         <div class="member-info">
                             <h4>ADELEYE, Bamiji Michael</h4>
-                            <span><b>Rank: </b> Lecturer</span>
+                            <span> <b>Consultant</b></span>
                         </div>
                     </div>
                 </div>
@@ -340,7 +340,7 @@
                             <div class="info-box mt-4">
                                 <i class="bx bx-phone-call"></i>
                                 <h3>Call Us</h3>
-                                <p>+234-7036 411810 55<br>+234 8022 135691</p>
+                                <p>+234-7036 411810<br>+234 8022 135691</p>
                             </div>
                         </div>
                     </div>
