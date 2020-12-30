@@ -16,6 +16,11 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
+    public function activities()
+    {
+        return view('pages.activities');
+    }
+
     public function masters()
     {
         return view('pages.masters');

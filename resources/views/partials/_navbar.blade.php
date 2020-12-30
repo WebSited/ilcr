@@ -12,18 +12,8 @@
         <li><a href="#about">About Us</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#services">Programmes & Admission</a></li>
-        {{--  <li><a href="#admission">Admission</a></li>  --}}
-        <li class="drop-down"><a href="">Centres</a>
-          <ul>
-            <li class="drop-down"><a href="#">Centre for Land Governance</a>
-              <ul>
-                <li><a href="#">M. Tech Land Governance</a></li>
-                <li><a href="#">PGD Land Governance</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
         <li><a href="#contact">Contact Us</a></li>
+        <li><a href="{{ route('activities') }}">Activities</a></li>
 
       </ul>
     </nav><!-- .nav-menu -->
