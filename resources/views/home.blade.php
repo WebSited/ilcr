@@ -65,7 +65,7 @@
                             <li>PGD in Land Governance</li>
                             <li>PGD in Facility Management</li>
                         </ul>
-                        <a href="" class="btn btn-success text-white">More Info</a>
+                        <a href="{{ route('pgd') }}" class="btn btn-success text-white">More Info</a>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@
                             <li>M.Tech in Land Governance</li>
                             <li>M.Tech in Facility Management</li>
                         </ul>
-                        <a href="" class="btn btn-success text-white">More Info</a>
+                        <a href="{{ route('masters') }}" class="btn btn-success text-white">More Info</a>
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@
                         </div>
                         <h4 class="pt-3"><a href=""><b>SHORT TRAININGS</b></a></h4>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p><br>
-                        <a href="" class="btn btn-success text-white">More Info</a>
+                        <a href="{{ route('training') }}" class="btn btn-success text-white">More Info</a>
                     </div>
 
                 </div>

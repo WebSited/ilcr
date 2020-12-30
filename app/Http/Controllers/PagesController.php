@@ -16,9 +16,19 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
-    public function activities()
+    public function masters()
     {
-        return view('pages.activities');
+        return view('pages.masters');
+    }
+
+    public function training()
+    {
+        return view('pages.training');
+    }
+
+    public function pgd()
+    {
+        return view('pages.pgd');
     }
 
 }

@@ -17,13 +17,8 @@
           <ul>
             <li class="drop-down"><a href="#">Centre for Land Governance</a>
               <ul>
-<<<<<<< Updated upstream
                 <li><a href="#">M. Tech Land Governance</a></li>
                 <li><a href="#">PGD Land Governance</a></li>
-=======
-                <li><a href="{{ route('masters') }}">M. Tech Land Management</a></li>
-                <li><a href="{{ route('pgd') }}">PGD Land Management</a></li>
->>>>>>> Stashed changes
               </ul>
             </li>
           </ul>
