@@ -75,7 +75,7 @@ h6 {
 }
 
 #header.header-transparent {
-    background: #708238;
+    background: transparent;
 }
 
 #header.header-scrolled {
@@ -2345,5 +2345,5 @@ section {
         position: static;
         margin-top: 30px;
     }
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
