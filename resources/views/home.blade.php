@@ -7,7 +7,7 @@
     <div class="container position-relative">
         <h1>Welcome to the</h1>
         <h1>Institute for Land and Community Resilience</h1>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
     </div>
 </section><!-- End Hero -->
 
