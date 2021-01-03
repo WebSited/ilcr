@@ -19,7 +19,7 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h3 style="text-align: center">About ILCR</h3>
+                    <h3 style="text-align: center">ABOUT ILCR</h3>
                     <p style="text-align: justify">
                         Land disputes, land degradations, loss of tenure, climate change actions as a result of low
                         capacity, poor implementation of polices and low risk awareness and emergency preparedness are
@@ -89,8 +89,8 @@
                             <img src="{{ asset('img/training.svg') }}" class="img-fluid" alt="">
                         </div>
                         <h4 class="pt-3"><a href=""><b>SHORT TRAININGS</b></a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p><br>
-                        <a href="{{ route('training') }}" class="btn btn-success text-white">More Info</a>
+                        <p>Coming Soon</p><br>
+                        <!-- <a href="{{ route('training') }}" class="btn btn-success text-white">More Info</a> -->
                     </div>
 
                 </div>
