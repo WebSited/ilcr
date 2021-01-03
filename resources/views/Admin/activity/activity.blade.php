@@ -32,6 +32,9 @@
                             #
                           </th>
                           <th>
+                            Year
+                          </th>
+                          <th>
                             Month
                           </th>
                           <th>
@@ -50,6 +53,9 @@
                         <tr>
                           <td>
                             {{ $count++ }}
+                          </td>
+                          <td>
+                            {{ $row->year }}
                           </td>
                           <td>
                             {{ $row->month }}

@@ -25,8 +25,12 @@
       <form action="{{ route('store.activity') }}" method="POST" enctype="multipart/form-data" class="forms-sample" >
         @csrf
         <div class="form-group">
+          <label for="exampleInputName1">Year</label>
+          <input type="text" class="form-control" name="year" id="exampleInputName1" placeholder="Year" required>
+        <div class="form-group">
           <label for="exampleInputName1">Month</label>
           <input type="text" class="form-control" name="month" id="exampleInputName1" placeholder="Month" required>
+        </div>
         </div>
         <div class="form-group">
           <label for="exampleInputName1">Activity</label>

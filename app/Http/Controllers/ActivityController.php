@@ -44,11 +44,13 @@ class ActivityController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
+            'year' => 'required',
             'month' => 'required',
             'body' => 'required',
         ]);
                 
         $activity = new Activity();
+        $activity->year = $request->year;
         $activity->month = $request->month;
         $activity->body = $request->body;
         $activity->save(); 
@@ -90,10 +92,12 @@ class ActivityController extends Controller
     {
 
         $this->validate($request, [
+            'year' => 'required',
             'month' => 'required',
             'body' => 'required',
             ]);
         $data = array(
+            'year' => $request->input('year'),
             'month' => $request->input('month'),
             'body' => $request->input('body'),
         );       

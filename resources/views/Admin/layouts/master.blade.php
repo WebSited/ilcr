@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Ilcr Admin</title>
+  <title>ILCR Admin</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="{{ asset('admin_assets/vendors/ti-icons/css/themify-icons.css')}}">
   <link rel="stylesheet" href="{{ asset('admin_assets/vendors/base/vendor.bundle.base.css')}}">
@@ -15,7 +15,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="{{ asset('admin_assets/css/style.css')}}">
   <!-- endinject -->
-  <link rel="shortcut icon" href="{{ asset('admin_assets/images/favicon.png')}}" />
+  <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" />
   <script src="{{asset('ckeditor/ckeditor.js')}}"></script>
 </head>
 <body>

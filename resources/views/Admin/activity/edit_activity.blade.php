@@ -23,6 +23,10 @@
       <form action="{{ route('update.activity', ['id' => $activity->id]) }}" method="POST" enctype="multipart/form-data" class="forms-sample" >
         @csrf
         <div class="form-group">
+          <label for="exampleInputName1">Year</label>
+          <input type="text" class="form-control" name="year" value="{{ $activity->year }}" id="exampleInputName1" required>
+        </div>
+        <div class="form-group">
           <label for="exampleInputName1">Month</label>
           <input type="text" class="form-control" name="month" value="{{ $activity->month }}" id="exampleInputName1" required>
         </div>
