@@ -9,13 +9,12 @@
 <!-- ======= About Section ======= -->
 <section id="about" class="about m-5 ">
     <div class="container">
-
         <div class="row">
             <div class="col-lg-4">
                 <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0">
-                <h3>About ILCR</h3>
+                <h3>ABOUT ILCR</h3>
                 <p style="text-align: justify">
                     Land disputes, land degradations, loss of tenure, climate change actions as a result of low
                     capacity, poor implementation of polices and low risk awareness and emergency preparedness are major
@@ -27,8 +26,7 @@
                     institutions for improved land governance on the continent amongst others.
                 </p>
             </div>
-            <p style="text-align: justify margin-left: 50px">
-
+            <p style="text-align: justify">
                 <br>
                 On the other hand, disaster occurrence is on the increase in Nigeria and most of disasters affects
                 communities far away from where government agencies responsible for disaster management are located, the
@@ -46,8 +44,9 @@
                 communities in Nigeria on land and emergencies related matters.
 
             </p>
+            <br/>
             <div class="row">
-                <h4 style="color:red;">Our Objectives</h4>
+                <h4 style="color: green;">OUR OBJECTIVES</h4>
             </div>
 
             <div class="row">
@@ -55,8 +54,9 @@
                 <div class="col-md-5">
                     <img src="{{ asset('img/objective.svg') }}" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6">
-                    <ul style="text-align: justify">
+                <div class="col-lg-8 pt-4 pt-lg-0">
+                <p>
+                    <ul style="text-align: justify; font-size: 15px; color: #444444;">
                         <li>Improve land-related curricula in post-graduate training courses in quantity and quality.
                         </li>
                         <li>Promote knowledge management to support land policy and governance in Nigeria and to enhance
@@ -73,26 +73,30 @@
                             trainings and organise workshops and conferences. </li>
 
                     </ul>
-                </div>
+                    </p>
             </div>
-
-            <h4 style="text-align: centre justify-content: center">Our Mandate</h4>
+            </div>
+            <br/>
+            <div class="row">
+                <h4 style="color: green;">OUR MANDATE</h4>
+            </div>
             <div class="row">
 
                 <div class="col-md-5">
                     <img src="{{ asset('img/mandate.svg') }}" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6">
-                    <p style="text-align: justify; font-size: 17px;">ILCR mandates is to advance knowledge through a
+                <div class="col-lg-8 pt-4 pt-lg-0">
+                <p style="text-align: justify">
+                        ILCR mandates is to advance knowledge through a
                         systematic education, training of manpower and conduct cut edging researches for developing
                         leadership and competencies that will enhance innovation and sustainable development practices
                         at post graduate level that will directly address identified problems for a sustainable Land
-                        Management and a Resilient Community. </p>
-                </div>
+                        Management and a Resilient Community.
+                </p>
             </div>
-
-
+            </div>
         </div>
+    </div>
 </section><!-- End About Section -->
 
 @endsection
