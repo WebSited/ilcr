@@ -9,9 +9,9 @@
     <nav class="nav-menu d-none d-lg-block">
       <ul>
         <li class="active"><a href="{{ route('home') }}">HOME</a></li>
-        <li><a href="#about">ABOUT US</a></li>
-        <li><a href="#services">PROGRAMMES AND ADMISSION</a></li>
-        <li><a href="#team">TEAM</a></li>
+        <li><a href="{{ route('home') }}#about">ABOUT US</a></li>
+        <li><a href="{{ route('home') }}#services">PROGRAMMES AND ADMISSION</a></li>
+        <li><a href="{{ route('home') }}#team">TEAM</a></li>
         <li class="drop-down"><a href="">CENTERS</a>
           <ul>
             <li class="drop-down"><a href="#">CENTER FOR LAND GOVERNANCE</a>
@@ -22,7 +22,7 @@
             </li>
           </ul>
         </li>
-        <li><a href="#contact">CONTACT US</a></li>
+        <li><a href="{{ route('home') }}#contact">CONTACT US</a></li>
         <li><a href="{{ route('activities') }}">ACTIVITIES</a></li>
 
       </ul>
