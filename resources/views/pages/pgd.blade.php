@@ -26,7 +26,7 @@
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2 style="font-weight: bold;  font-size: 1.3rem;">Introduction</h2>
+        <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Introduction</h2>
           <p style="padding: 10px 25px; text-align: justify; margin-left: 20px; font-size: 0.9rem;">Land which is the bedrock of all man’s activities is always associated with disputes, linked with wealth and poverty, civil unrest and deaths, it has also been linked to Climate Change. Many scholars have reported that bad land governance and administration is responsible for the adverse effects. The programme is therefore proposed to enhance training opportunities and curricula on land governance in Nigeria, promoting demand driven research on land policy issues, connecting scholars and researchers across Africa through academic networks and finally to Engage staff and scholars in interdisciplinary research. </p>
         </div>
 
@@ -75,7 +75,7 @@
     <section id="clients" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Admission Requirements</h2>
+          <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Admission Requirements</h2>
           <p style="font-size: 0.9rem;">To secure admission into the Master programme a candidate must possess the following requirements:
               <ul style="margin-left: 3.4em; font-size: 0.9rem;">
                   <li>Five (5) O’ level credit passes in English, Mathematics, Geography and any two related subjects like Economics and Agricultural Science, etc. </li>
@@ -84,7 +84,7 @@
         </div>
 
         <div class="section-header">
-            <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Structure of Programme Implementation</h2>
+            <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Structure of Programme Implementation</h2>
                 <ul style="margin-left: 3.4em; font-size: 0.9rem;">
                     <li>Students will be expected to sit for formal examinations at the end of each semester of the programme.</li>
                     <li>For students to be admitted to the examination, they should have satisfactorily attended lectures (at least 75%) and submitted all required assignments in all courses studied during that semester.</li>
@@ -100,12 +100,12 @@
         </div>
 
         <div>
-                <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Course Duration</h2>
+                <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Course Duration</h2>
                 <p style="font-size: 0.9rem;">The taught and research program will run for one (1) year spread over two (2) semesters. Eight (8) courses will be covered in each semester (16 weeks).</p>
 
         </div>
         <div>
-               <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Graduation Requirements</h2>
+               <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Graduation Requirements</h2>
                <p style="font-size: 0.9rem;">Candidates are required to earn a minimum 43 credit units before graduation. 38 units of core courses including project, 5 units of elective courses. </p>
         </div>
       </div>

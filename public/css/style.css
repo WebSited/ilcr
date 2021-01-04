@@ -2,6 +2,8 @@
 # General
 --------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     color: #444444;
 }
 
@@ -28,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
@@ -52,7 +54,7 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    background: #ffc107;
+    background: rgba(26, 128, 43, 0.9);
     color: #fff;
     transition: all 0.4s;
 }
@@ -90,7 +92,7 @@ h6 {
     line-height: 1;
     font-weight: 600;
     letter-spacing: 2px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .new_list {

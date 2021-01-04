@@ -22,16 +22,14 @@
                 <div class="col-lg-6">
                     <h3 style="text-align: center">ABOUT ILCR</h3>
                     <p style="text-align: justify">
-                        Land disputes, land degradations, loss of tenure, climate change actions as a result of low
-                        capacity, poor implementation of polices and low risk awareness and emergency preparedness are
-                        major re-occurring issues in Nigeria and other developing nations. In view of capacity related
-                        challenges including skills and expertise, the Africa Union Member States through the African
-                        Union Declaration on Land Issues and Challenges in Africa adopted in 2009 were urged to “build
-                        adequate human, financial, technical capacities to support land policy development and
-                        implementation through coordinating activities towards strengthening capacities of member
-                        universities and research institutions for improved land governance on the continent amongst
-                        others. <br><a href="{{ route('about') }}" class="btn btn-success text-white"
-                            style="margin-top: 5px;">Read More</a>
+                    Institute for Land and Community Resilience was established to build human and community capacity through formal and 
+                    informal education and awareness creation among local communities in Nigeria on land and emergencies related matters. 
+                    <br/>
+                    Land disputes, land degradations, loss of tenure, climate change actions as a result of low capacity, 
+                    poor implementation of polices and low risk awareness and emergency preparedness are major re-occurring issues in 
+                    Nigeria and other developing nations.
+                    <br/>
+                    <a href="{{ route('about') }}" class="btn btn-success text-white"style="margin-top: 5px;">Read More</a>
                     </p>
 
                 </div>
@@ -60,11 +58,11 @@
                             <img src="{{ asset('img/pgd.svg') }}" class="img-fluid" alt="">
                         </div>
                         <h4 class="pt-3"><a href=""><b>POSTGRADUATE DIPLOMAS</b></a></h4>
-                        <ul style="list-style-type: none">
+                        <ul style="list-style-type: none; font-size: 0.9rem;">
                             <li>PGD in Land Governance</li>
                             <li>PGD in Facility Management</li>
                         </ul>
-                        <a href="{{ route('pgd') }}" class="btn btn-success text-white">More Info</a>
+                        <a href="{{ route('pgd') }}" class="btn btn-success text-white" style="font-size: 0.9rem;">MORE INFO</a>
                     </div>
                 </div>
 
@@ -75,11 +73,11 @@
                             <img src="{{ asset('img/masters.svg') }}" class="img-fluid" alt="">
                         </div>
                         <h4 class="pt-3"><a href=""><b>MASTERS DEGREE</b></a></h4>
-                        <ul style="list-style-type: none" class="ml-0">
+                        <ul style="list-style-type: none; font-size: 0.9rem;" class="ml-0">
                             <li>M.Tech in Land Governance</li>
                             <li>M.Tech in Facility Management</li>
                         </ul>
-                        <a href="{{ route('masters') }}" class="btn btn-success text-white">More Info</a>
+                        <a href="{{ route('masters') }}" class="btn btn-success text-white" style="font-size: 0.9rem;">MORE INFO</a>
                     </div>
                 </div>
 
@@ -118,179 +116,16 @@
                         <div class="member-img">
                             <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
+                                <a href=""><i class="icofont-web"></i></a>
+                                <a href=""><i class="icofont-info-circle"></i></a>
+                                <a href=""><i class="icofont-phone-circle"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
                             <h4>Prof. Kemiki O.A</h4>
-                            <span> <b>Consultant</b></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>: Dr. (Mrs) N.I. Popoola</h4>
-                            <span> <b>Consultant</b></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Dr. Abdulquadri Ade., Bilau</h4>
-                            <span> <b>Consultant</b></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>MORENIKEJI, Gbenga</h4>
-                            <span> <b>Consultant</b></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Dr. ODUMOSU, Joseph Olayemi </h4>
-                            <span><b>Consultant</b></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>ADESINA, Ekundayo A. </h4>
-                            <span><b>Rank: </b> Lecturer</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>ADELEYE, Bamiji Michael</h4>
-                            <span> <b>Consultant</b></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Mrs. AKANBI, Memunat Oyiza</h4>
-                            <span><b>Rank: </b> Lecturer</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Miss Ikwue, Ene Alice</h4>
-                            <span><b>Email: </b> aliceenela@gmail.com</span> <br>
-                            <span><b>Mobile Phone: </b> +234 8167 624235</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="{{ asset('img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Mr. Olagunju R.E</h4>
-                            <span><b>Email: </b> olagunjureo@gmail.com</span> <br>
-                            <span><b>Mobile Phone: </b> +234 8118 550959</span>
+                            <span>Rank: <b>Consultant</b></span>
+                            <span>Telephone: <b>0810 798 6162</b></span>
+                            <span>Email: <b>isthisokay@gmail.com</b></span>
                         </div>
                     </div>
                 </div>

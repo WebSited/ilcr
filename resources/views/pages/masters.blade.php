@@ -23,7 +23,7 @@
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2 style="font-weight: bold;  font-size: 1.3rem;">Introduction</h2>
+        <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Introduction</h2>
           <p style="padding: 10px 25px; text-align: justify; margin-left: 20px; font-size: 0.9rem;">Cities in the world are experiencing rapid urbanization and this urbanization is often accompanied with lots of issues ranging from poor urban management, over crowdedness, social instability, slum proliferation, food security and poor land management. Amidst the rapid urbanization experienced, the later (poor land management), has called for concern among stake holders because all activities of man take place on land. It is envisaged that more than two third of the world’s population would live in urban areas by the year 2050 as a result of rapid urbanization experienced by the cities of the world. This implies that as the population is increasing there would be more quests for land for physical development and the problems of secure tenure, land regulatory barriers, land use planning, and land governance may also arise from this phenomenon.  Against this background, the proposed Centre for Land Governance would furnish prospective students with a robust understanding of the issues, theories, programmes and best practices that could be used to ameliorate the problems that arises from land tenure and property rights. </p>
         </div>
 
@@ -76,7 +76,7 @@
     <section id="clients" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Admission Requirements</h2>
+          <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Admission Requirements</h2>
           <p style="font-size: 0.9rem;">To secure admission into the Master programme a candidate must possess the following requirements:
               <ul style="margin-left: 3.4em; font-size: 0.9rem;">
                   <li>Five (5) O’ level credit passes in English, Mathematics, Geography and any two related subjects like Economics and Agricultural Science, etc. </li>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="section-header">
-            <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Structure of Programme Implementation</h2>
+            <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Structure of Programme Implementation</h2>
                 <ul style="margin-left: 3.4em; font-size: 0.9rem;">
                     <li>Students will be expected to sit for formal examinations at the end of each semester of the programme.</li>
                     <li>For students to be admitted to the examination, they should have satisfactorily attended lectures (at least 75%) and submitted all required assignments in all courses studied during that semester.</li>
@@ -102,12 +102,12 @@
         </div>
 
         <div>
-                <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Course Duration</h2>
+                <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Course Duration</h2>
                 <p style="font-size: 0.9rem;">The taught and research program will run for one (1) year spread over two (2) semesters. Eight (8) courses will be covered in each semester (16 weeks).</p>
 
         </div>
         <div>
-               <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Graduation Requirements</h2>
+               <h2 style="font-weight: bold; font-size: 1.2rem; font-family: sans-serif!important;">Graduation Requirements</h2>
                <p style="font-size: 0.9rem;">Candidates are required to earn a minimum 43 credit units before graduation. 38 units of core courses including project, 5 units of elective courses. </p>
         </div>
       </div>
