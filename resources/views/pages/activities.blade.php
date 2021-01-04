@@ -14,9 +14,7 @@
 
         <div class="section-title">
             <h2>2020 Activities</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-                sit in iste officiis commodi quidem hic quas.</p>
+            <p></p>
         </div>
 
         <div class="faq-list">
@@ -79,8 +77,8 @@
                                 relations in the areas of research, teaching, and capacity building programmes for Land
                                 Management and Administration, Emergency and Disaster Management with special emphasis
                                 on Geo- Hazard Mapping.</li>
-                            <li>ILCR held meeting and inspected facilities available at the Public Service Institute for
-                                hosting it proposed Postgraduate study.</li>
+                            <li>ILCR held meeting and inspected facilities available at the Public Service Institute of Nigeria (PSIN) for
+                                hosting it's proposed Postgraduate study.</li>
                         </ul>
                     </div>
                 </li>
@@ -177,7 +175,7 @@
                             class="bx bx-chevron-up icon-close"></i></a>
                     <div id="faq-list-8" class="collapse" data-parent=".faq-list">
                         <ul class="new_list">
-                            <li>ILCR finalized meetings (Virtual) and drafted an MoU with Public Service Institute
+                            <li>ILCR finalized meetings (Virtual) and drafted an MoU with Public Service Institute of Nigeria
                                 (PSIN), Abuja and the Nigerian Institute of Social and Economic Research (NISER),
                                 Ibadan, Nigeria on our collaborations.</li>
                             <li>ILCR in collaboration with the Beak Consultants GmbH, Germany developed and submitted

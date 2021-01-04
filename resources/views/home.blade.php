@@ -268,7 +268,7 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Miss. Ikwe, Alice</h4>
+                            <h4>Miss Ikwue, Ene Alice</h4>
                             <span><b>Email: </b> aliceenela@gmail.com</span> <br>
                             <span><b>Mobile Phone: </b> +234 8167 624235</span>
                         </div>
