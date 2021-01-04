@@ -1,7 +1,11 @@
 @extends('partials.master')
 
 @section('content')
-
+<style>
+#header.header-transparent {
+    background: rgba(26, 128, 43, 0.9);
+}
+</style>
 <!-- ======= Intro Section ======= -->
   <section id="intro" style="margin-top: 80px;">
 

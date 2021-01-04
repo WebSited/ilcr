@@ -1,11 +1,19 @@
 @extends('partials.master')
 
 @section('content')
-
+<style>
+#header.header-transparent {
+    background: rgba(26, 128, 43, 0.9);
+}
+</style>
 <!-- ======= Intro Section ======= -->
-  <section id="intro" style="margin-top: 80px;">
-
+  <section id="intro">
     <div class="intro-content">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <h2>Postgraduate Diploma in <span>Land <br> Management</span></h2>
       <div>
         <a href="#" class="btn-get-started scrollto">Registration</a>
@@ -14,14 +22,12 @@
     </div>
   </section><!-- End Intro Section -->
 
-
     <!-- ======= Services Section ======= -->
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2 style="font-weight: bold;  font-size: 1.3rem;
-        ">Introduction</h2>
-          <p style="padding: 10px 25px; text-align: justify; margin-left: 20px;">Land which is the bedrock of all man’s activities is always associated with disputes, linked with wealth and poverty, civil unrest and deaths, it has also been linked to Climate Change. Many scholars have reported that bad land governance and administration is responsible for the adverse effects. The programme is therefore proposed to enhance training opportunities and curricula on land governance in Nigeria, promoting demand driven research on land policy issues, connecting scholars and researchers across Africa through academic networks and finally to Engage staff and scholars in interdisciplinary research. </p>
+          <h2 style="font-weight: bold;  font-size: 1.3rem;">Introduction</h2>
+          <p style="padding: 10px 25px; text-align: justify; margin-left: 20px; font-size: 0.9rem;">Land which is the bedrock of all man’s activities is always associated with disputes, linked with wealth and poverty, civil unrest and deaths, it has also been linked to Climate Change. Many scholars have reported that bad land governance and administration is responsible for the adverse effects. The programme is therefore proposed to enhance training opportunities and curricula on land governance in Nigeria, promoting demand driven research on land policy issues, connecting scholars and researchers across Africa through academic networks and finally to Engage staff and scholars in interdisciplinary research. </p>
         </div>
 
         <div class="row">
@@ -70,8 +76,8 @@
       <div class="container">
         <div class="section-header">
           <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Admission Requirements</h2>
-          <p>To secure admission into the Master programme a candidate must possess the following requirements:
-              <ul style="margin-left: 3.4em;">
+          <p style="font-size: 0.9rem;">To secure admission into the Master programme a candidate must possess the following requirements:
+              <ul style="margin-left: 3.4em; font-size: 0.9rem;">
                   <li>Five (5) O’ level credit passes in English, Mathematics, Geography and any two related subjects like Economics and Agricultural Science, etc. </li>
                   <li>Minimum of Third Class (First Degree) or HND (Lower Credit) in relevant courses from a recognized institution within and outside Nigeria.</li>
                 </ul> </p>
@@ -79,7 +85,7 @@
 
         <div class="section-header">
             <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Structure of Programme Implementation</h2>
-                <ul style="margin-left: 3.4em;">
+                <ul style="margin-left: 3.4em; font-size: 0.9rem;">
                     <li>Students will be expected to sit for formal examinations at the end of each semester of the programme.</li>
                     <li>For students to be admitted to the examination, they should have satisfactorily attended lectures (at least 75%) and submitted all required assignments in all courses studied during that semester.</li>
                     <li>They must have paid prescribed fees in accordance with the general Institution rules and regulations.</li>
@@ -95,12 +101,12 @@
 
         <div>
                 <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Course Duration</h2>
-                <p>The taught and research program will run for one (1) year spread over two (2) semesters. Eight (8) courses will be covered in each semester (16 weeks).</p>
+                <p style="font-size: 0.9rem;">The taught and research program will run for one (1) year spread over two (2) semesters. Eight (8) courses will be covered in each semester (16 weeks).</p>
 
         </div>
         <div>
                <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Graduation Requirements</h2>
-               <p>Candidates are required to earn a minimum 43 credit units before graduation. 38 units of core courses including project, 5 units of elective courses. </p>
+               <p style="font-size: 0.9rem;">Candidates are required to earn a minimum 43 credit units before graduation. 38 units of core courses including project, 5 units of elective courses. </p>
         </div>
       </div>
     </section>
