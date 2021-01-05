@@ -8,7 +8,6 @@
 </style>
 <!-- ======= Intro Section ======= -->
   <section id="intro" style="margin-top: 80px;">
-
     <div class="intro-content">
       <h2>M.Tech in <span>Land <br> Management</span></h2>
       <div>
@@ -24,7 +23,15 @@
       <div class="container">
         <div class="section-header">
         <h2 style="font-weight: bold; font-size: 1.3rem; font-family: sans-serif!important;">Introduction</h2>
-          <p style="padding: 10px 25px; text-align: justify; margin-left: 20px; font-size: 0.9rem;">Cities in the world are experiencing rapid urbanization and this urbanization is often accompanied with lots of issues ranging from poor urban management, over crowdedness, social instability, slum proliferation, food security and poor land management. Amidst the rapid urbanization experienced, the later (poor land management), has called for concern among stake holders because all activities of man take place on land. It is envisaged that more than two third of the world’s population would live in urban areas by the year 2050 as a result of rapid urbanization experienced by the cities of the world. This implies that as the population is increasing there would be more quests for land for physical development and the problems of secure tenure, land regulatory barriers, land use planning, and land governance may also arise from this phenomenon.  Against this background, the proposed Centre for Land Governance would furnish prospective students with a robust understanding of the issues, theories, programmes and best practices that could be used to ameliorate the problems that arises from land tenure and property rights. </p>
+          <p style="padding: 10px 25px; text-align: justify; margin-left: 20px; font-size: 0.9rem;">Cities in the world are experiencing rapid urbanization and 
+          this urbanization is often accompanied with lots of issues ranging from poor urban management, over crowdedness, social instability, 
+          slum proliferation, food security and poor land management. Amidst the rapid urbanization experienced, the later (poor land management), 
+          has called for concern among stake holders because all activities of man take place on land. It is envisaged that more than two third of the world’s 
+          population would live in urban areas by the year 2050 as a result of rapid urbanization experienced by the cities of the world. 
+          This implies that as the population is increasing there would be more quests for land for physical development and the problems of secure tenure, 
+          land regulatory barriers, land use planning, and land governance may also arise from this phenomenon.  
+          Against this background, the proposed Centre for Land Governance would furnish prospective students with a robust understanding of the issues, 
+          theories, programmes and best practices that could be used to ameliorate the problems that arises from land tenure and property rights. </p>
         </div>
 
         <div class="row">

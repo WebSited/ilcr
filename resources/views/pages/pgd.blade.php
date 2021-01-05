@@ -7,13 +7,8 @@
 }
 </style>
 <!-- ======= Intro Section ======= -->
-  <section id="intro">
+  <section id="intro" style="margin-top: 80px;">
     <div class="intro-content">
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <h2>Postgraduate Diploma in <span>Land <br> Management</span></h2>
       <div>
         <a href="#" class="btn-get-started scrollto">Registration</a>

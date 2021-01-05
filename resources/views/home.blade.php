@@ -51,7 +51,6 @@
             </div>
 
             <div class="row">
-
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch m-a" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box iconbox-blue">
                         <div class="icon">
@@ -66,14 +65,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-                    data-aos-delay="200">
-                    <div class="icon-box iconbox-orange ">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box iconbox-orange">
                         <div class="icon">
                             <img src="{{ asset('img/masters.svg') }}" class="img-fluid" alt="">
                         </div>
-                        <h4 class="pt-3"><a href=""><b>MASTERS DEGREE</b></a></h4>
-                        <ul style="list-style-type: none; font-size: 0.9rem;" class="ml-0">
+                        <h4 class="pt-3"><a href=""><b>  MASTERS DEGREE  </b></a></h4>
+                        <ul style="list-style-type: none; font-size: 0.9rem;">
                             <li>M.Tech in Land Governance</li>
                             <li>M.Tech in Facility Management</li>
                         </ul>
@@ -81,13 +79,12 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-                    data-aos-delay="300">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box iconbox-pink">
                         <div class="icon">
                             <img src="{{ asset('img/training.svg') }}" class="img-fluid" alt="">
                         </div>
-                        <h4 class="pt-3"><a href=""><b>SHORT TRAININGS</b></a></h4>
+                        <h4 class="pt-3"><a href=""><b>  SHORT TRAININGS  </b></a></h4>
                         <p>Coming Soon</p><br>
                         <!-- <a href="{{ route('training') }}" class="btn btn-success text-white">More Info</a> -->
                     </div>
