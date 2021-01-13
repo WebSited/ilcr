@@ -2,7 +2,8 @@
 # General
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
 
 * {
     margin: 0;
@@ -11,7 +12,7 @@
 }
 
 body {
-    font-family: 'Acme', sans-serif;
+    font-family: sans-serif;
     color: #444444;
 }
 
@@ -30,9 +31,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
-
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -64,7 +64,6 @@ h6 {
     color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -92,7 +91,7 @@ h6 {
     line-height: 1;
     font-weight: 600;
     letter-spacing: 2px;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
 }
 
 .new_list {
@@ -100,8 +99,8 @@ h6 {
 }
 
 ul.new_list li {
-    padding: 1px 4px!important;
-    margin-top: 1.5px!important;
+    padding: 1px 4px !important;
+    margin-top: 1.5px !important;
     list-style-type: square;
     margin-left: 65px;
 }
@@ -120,11 +119,9 @@ ul.new_list li {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-
 
 /* Desktop Navigation */
 
@@ -134,11 +131,11 @@ ul.new_list li {
     list-style: none;
 }
 
-.nav-menu>ul {
+.nav-menu > ul {
     display: flex;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
     position: relative;
     white-space: nowrap;
     padding: 10px 0 10px 28px;
@@ -150,12 +147,12 @@ ul.new_list li {
     color: #fff;
     transition: 0.3s;
     font-size: 14px;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
 }
 
 .nav-menu a:hover,
-.nav-menu .active>a,
-.nav-menu li:hover>a {
+.nav-menu .active > a,
+.nav-menu li:hover > a {
     color: #ffc107;
 }
 
@@ -173,7 +170,7 @@ ul.new_list li {
     transition: 0.3s;
 }
 
-.nav-menu .drop-down:hover>ul {
+.nav-menu .drop-down:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -193,12 +190,12 @@ ul.new_list li {
 }
 
 .nav-menu .drop-down ul a:hover,
-.nav-menu .drop-down ul .active>a,
-.nav-menu .drop-down ul li:hover>a {
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
     color: #ffc107;
 }
 
-.nav-menu .drop-down>a:after {
+.nav-menu .drop-down > a:after {
     content: "\ea99";
     font-family: IcoFont;
     padding-left: 5px;
@@ -209,17 +206,17 @@ ul.new_list li {
     left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover>ul {
+.nav-menu .drop-down .drop-down:hover > ul {
     opacity: 1;
     top: 0;
     left: 100%;
 }
 
-.nav-menu .drop-down .drop-down>a {
+.nav-menu .drop-down .drop-down > a {
     padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down>a:after {
+.nav-menu .drop-down .drop-down > a:after {
     content: "\eaa0";
     font-family: IcoFont;
     position: absolute;
@@ -230,14 +227,13 @@ ul.new_list li {
     .nav-menu .drop-down .drop-down ul {
         left: -90%;
     }
-    .nav-menu .drop-down .drop-down:hover>ul {
+    .nav-menu .drop-down .drop-down:hover > ul {
         left: -100%;
     }
-    .nav-menu .drop-down .drop-down>a:after {
+    .nav-menu .drop-down .drop-down > a:after {
         content: "\ea9d";
     }
 }
-
 
 /* Mobile Navigation */
 
@@ -292,13 +288,13 @@ ul.new_list li {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active>a,
-.mobile-nav li:hover>a {
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
     color: #ffc107;
     text-decoration: none;
 }
 
-.mobile-nav .drop-down>a:after {
+.mobile-nav .drop-down > a:after {
     content: "\ea99";
     font-family: IcoFont;
     padding-left: 10px;
@@ -306,11 +302,11 @@ ul.new_list li {
     right: 15px;
 }
 
-.mobile-nav .active.drop-down>a:after {
+.mobile-nav .active.drop-down > a:after {
     content: "\eaa1";
 }
 
-.mobile-nav .drop-down>a {
+.mobile-nav .drop-down > a {
     padding-right: 35px;
 }
 
@@ -348,7 +344,6 @@ ul.new_list li {
 .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -389,7 +384,7 @@ ul.new_list li {
     font-weight: 1000;
     line-height: 56px;
     color: #fff;
-    text-shadow: 3px 3px rgba(26, 79, 128, 0.9);
+    text-shadow: 1px 2px rgba(26, 79, 128, 0.9);
 }
 
 #hero h2 {
@@ -439,7 +434,6 @@ ul.new_list li {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -454,20 +448,20 @@ section {
 
 .section-title {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 2px;
 }
 
 .section-title h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
     position: relative;
 }
 
 .section-title h2::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 50px;
@@ -482,7 +476,6 @@ section {
     font-size: 14px;
     color: #aab3c7;
 }
-
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -522,11 +515,11 @@ section {
     font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
     padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
     display: inline-block;
     padding-right: 10px;
     color: #6c757d;
@@ -544,7 +537,6 @@ section {
         display: inline-block;
     }
 }
-
 
 /*--------------------------------------------------------------
 # Clients
@@ -576,7 +568,6 @@ section {
     }
 }
 
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -604,7 +595,6 @@ section {
     color: #444444;
 }
 
-
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -625,7 +615,6 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
-
 
 /*--------------------------------------------------------------
 # Services
@@ -754,7 +743,6 @@ section {
     color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -792,7 +780,6 @@ section {
 .cta .cta-btn:hover {
     background: #ffc107;
 }
-
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -879,7 +866,6 @@ section {
         margin: 30px 10px;
     }
 }
-
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -980,7 +966,6 @@ section {
     bottom: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1056,7 +1041,6 @@ section {
 .team .member:hover .social {
     opacity: 1;
 }
-
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1179,7 +1163,6 @@ section {
     color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -1193,7 +1176,7 @@ section {
     list-style: none;
 }
 
-.faq .faq-list li+li {
+.faq .faq-list li + li {
     margin-top: 15px;
 }
 
@@ -1263,7 +1246,6 @@ section {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1272,7 +1254,7 @@ section {
     color: #444444;
     text-align: center;
     box-shadow: 0 0 20px rgba(65, 76, 100, 0.05);
-    padding: 20px 0 30px 0;
+    padding: 5px 0 30px 0;
 }
 
 .contact .info-box i {
@@ -1319,7 +1301,7 @@ section {
     font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
     margin-top: 25px;
 }
 
@@ -1403,7 +1385,6 @@ section {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1453,7 +1434,7 @@ section {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
 }
 
@@ -1467,7 +1448,6 @@ section {
         padding-top: 20px;
     }
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -1624,7 +1604,6 @@ section {
     text-decoration: none;
 }
 
-
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -1708,7 +1687,7 @@ section {
 }
 
 #intro #intro-carousel::before {
-    content: '';
+    content: "";
     background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
     height: 100%;
@@ -1729,9 +1708,7 @@ section {
     transition-property: opacity;
 }
 
-
 /* End of Introduction Section */
-
 
 /* About Section
 --------------------------------*/
@@ -1797,9 +1774,7 @@ section {
     padding-bottom: 10px;
 }
 
-
 /* End of about section */
-
 
 /* Services Section
 --------------------------------*/
@@ -1877,7 +1852,6 @@ section {
     }
 }
 
-
 /* Clients Section
 --------------------------------*/
 
@@ -1914,7 +1888,6 @@ section {
 #clients .owl-dot.active {
     background-color: #50d8af;
 }
-
 
 /* Our Portfolio Section
 --------------------------------*/
@@ -2019,7 +1992,6 @@ section {
     bottom: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -2080,7 +2052,7 @@ section {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
 }
 
@@ -2108,7 +2080,6 @@ section {
         margin-top: 30px;
     }
 }
-
 
 /* Call To Action Section
 --------------------------------*/
@@ -2156,9 +2127,7 @@ section {
     border: 3px solid #50d8af;
 }
 
-
 /* End of call to action */
-
 
 /* Our Portfolio Section
 --------------------------------*/
@@ -2263,7 +2232,6 @@ section {
     bottom: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -2324,7 +2292,7 @@ section {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
 }
 

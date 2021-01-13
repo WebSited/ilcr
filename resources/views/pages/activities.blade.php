@@ -20,7 +20,7 @@
         <div class="faq-list">
             <ul>
                 <li data-aos="fade-up">
-                    <i class="fal fa-calendar-alt"></i> <a data-toggle="collapse" class="collapse"
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse"
                         href="#faq-list-1">January <i class="bx bx-chevron-down icon-show"></i><i
                             class="bx bx-chevron-up icon-close"></i></a>
                     <div id="faq-list-1" class="collapse" data-parent=".faq-list">

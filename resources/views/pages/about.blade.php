@@ -54,7 +54,7 @@
                 <div class="col-md-5">
                     <img src="{{ asset('img/objective.svg') }}" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-8 pt-4 pt-lg-0">
+                <div class="col-md-6 col-md-offset-1 pt-4 pt-lg-0 mb-5">
                 <p>
                     <ul style="text-align: justify; font-size: 15px; color: #444444;">
                         <li>Improve land-related curricula in post-graduate training courses in quantity and quality.
@@ -85,7 +85,7 @@
                 <div class="col-md-5">
                     <img src="{{ asset('img/mandate.svg') }}" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-8 pt-4 pt-lg-0">
+                <div class="col-md-6 col-md-offset-1 pt-4 pt-lg-0 mb-5">
                 <p style="text-align: justify">
                         ILCR mandates is to advance knowledge through a
                         systematic education, training of manpower and conduct cut edging researches for developing
