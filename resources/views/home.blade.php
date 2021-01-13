@@ -5,7 +5,6 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container position-relative">
-        <h1>Welcome to the</h1>
         <h1>Institute for Land and Community Resilience</h1>
         <h1>(ILCR)</h1>
         <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->

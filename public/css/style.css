@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Acme', sans-serif;
     color: #444444;
 }
 
@@ -92,7 +92,7 @@ h6 {
     line-height: 1;
     font-weight: 600;
     letter-spacing: 2px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 .new_list {
@@ -150,7 +150,7 @@ ul.new_list li {
     color: #fff;
     transition: 0.3s;
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 .nav-menu a:hover,
