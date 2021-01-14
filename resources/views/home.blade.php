@@ -22,9 +22,11 @@
                 <div class="col-lg-6">
                     <h3 style="text-align: center">ABOUT ILCR</h3>
                     <p style="text-align: justify">
+                    <br>
                     Institute for Land and Community Resilience was established to build human and community capacity through formal and 
                     informal education and awareness creation among local communities in Nigeria on land and emergencies related matters. 
                     <br/>
+                    <br>
                     Land disputes, land degradations, loss of tenure, climate change actions as a result of low capacity, 
                     poor implementation of polices and low risk awareness and emergency preparedness are major re-occurring issues in 
                     Nigeria and other developing nations.
@@ -34,7 +36,7 @@
 
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0">
-                    <img src="{{ asset('img/about-us.png') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/new_photo1.jpg') }}" class="img-fluid" alt="">
                 </div>
             </div>
 
