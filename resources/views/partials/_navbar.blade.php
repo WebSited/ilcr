@@ -20,6 +20,12 @@
                 <li><a href="{{ route('pgd') }}">PGD Land Governance</a></li>
               </ul>
             </li>
+            <li class="drop-down"><a href="#">CENTER FOR FACILITY MANAGEMENT</a>
+              <ul>
+                <li><a href="{{ route('masters') }}">M. Tech Facility Management</a></li>
+                <li><a href="{{ route('pgd') }}">PGD Facility Management</a></li>
+              </ul>
+            </li>
           </ul>
         </li>
         <li><a href="{{ route('home') }}#contact">CONTACT US</a></li>

@@ -54,11 +54,10 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch m-a" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box iconbox-blue">
                         <div class="icon">
-                            <img src="{{ asset('img/pgd.svg') }}" class="img-fluid" alt="">
                         </div>
                         <h4 class="pt-3"><a href=""><b>POSTGRADUATE DIPLOMAS</b></a></h4>
                         <ul style="list-style-type: none; font-size: 0.9rem;">
-                            <li>PGD in Land Governance</li>
+                            <li>PGD in Land Managament</li>
                             <li>PGD in Facility Management</li>
                         </ul>
                         <a href="{{ route('pgd') }}" class="btn btn-success text-white" style="font-size: 0.9rem;">MORE INFO</a>
@@ -67,12 +66,9 @@
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box iconbox-orange">
-                        <div class="icon">
-                            <img src="{{ asset('img/masters.svg') }}" class="img-fluid" alt="">
-                        </div>
                         <h4 class="pt-3"><a href=""><b>  MASTERS DEGREE  </b></a></h4>
                         <ul style="list-style-type: none; font-size: 0.9rem;">
-                            <li>M.Tech in Land Governance</li>
+                            <li>M.Tech in Land Managament</li>
                             <li>M.Tech in Facility Management</li>
                         </ul>
                         <a href="{{ route('masters') }}" class="btn btn-success text-white" style="font-size: 0.9rem;">MORE INFO</a>
@@ -81,9 +77,6 @@
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box iconbox-pink">
-                        <div class="icon">
-                            <img src="{{ asset('img/training.svg') }}" class="img-fluid" alt="">
-                        </div>
                         <h4 class="pt-3"><a href=""><b>  SHORT TRAININGS  </b></a></h4>
                         <p>Coming Soon</p><br>
                         <!-- <a href="{{ route('training') }}" class="btn btn-success text-white">More Info</a> -->
@@ -120,9 +113,10 @@
                         </div>
                         <div class="member-info">
                             <h4>Prof. Kemiki O.A</h4>
-                            <span>Rank: <b>Consultant</b></span>
+                            <span><b>Consultant</b></span>
                             <span>Telephone: <b>0810 798 6162</b></span>
                             <span>Email: <b>isthisokay@gmail.com</b></span>
+                            <span>Website: <b>https://hiswebsite.com</b></span>
                         </div>
                     </div>
                 </div>
