@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="{{ asset('img/about.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img/new_photo2.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0">
                 <h3>ABOUT ILCR</h3>

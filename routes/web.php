@@ -20,6 +20,7 @@ Route::get('/training', 'PagesController@training')->name('training');
 Route::get('/pgd', 'PagesController@pgd')->name('pgd');
 Route::get('/activities', 'PagesController@activities')->name('activities');
 Route::get('/activity/single/{id}', 'PagesController@singleshow')->name('show.single.activity');
+Route::post('/contact', 'PagesController@mail')->name('sendmail');
 
 Auth::routes();
 

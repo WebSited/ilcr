@@ -40,4 +40,18 @@ class PagesController extends Controller
         return view('pages.pgd');
     }
 
+    public function mail(Request $request)
+    {
+        $data = request()->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'subject' => 'required',
+            'message' => 'required'
+        ]);
+
+        $admin_mail = 'ilcr@futminna.edu.ng';
+        \Mail::to($admin_mail)->send(new SendMailable($data));
+        return redirect(route('home'))->with('message', 'Thank You for your message. We will be in touch.');
+    }
+
 }
