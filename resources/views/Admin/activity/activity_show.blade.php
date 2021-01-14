@@ -15,24 +15,97 @@
       <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title">{{ $activity_data->year }} Activities</h4>
+            <h3 class="card-title"><strong> {{ $activity_data->year }} Activities</strong></h3>
             <div class="table-responsive">
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <div class="card">
                             <div class="card-body">
+                              <strong><h4>January</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->january !!} </div>
+                              </div>
+                            </div>
+                            <br>
+
+                            <strong><h4>February</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->february !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>March</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->march !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>April</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->april !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>May</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->may !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>June</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->june !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>July</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->july !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>August</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->august !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>September</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->september !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>October</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->october !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>November</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->november !!} </div>
+                              </div>
+                            </div>
+                            <br>
+                            <strong><h4>December</h4> </strong>
+                              <div class="card">                              
+                                <div class="col-md-8">
+                                <div class="card-body my-3">{!! $activity_data->december !!} </div>
+                              </div>
+                            </div>
+                            <br>
                                 
-                                <div class="card-body my-3" align="justify"><strong>January: </strong>{{ $activity_data->january }} </div>
-                                <div class="card-body my-3"><strong>February </strong>{{ $activity_data->february }} </div>
-                                <div class="card-body my-3"><strong>March: </strong>{{ $activity_data->march }} </div>
-                                <div class="card-body my-3"><strong>April: </strong>{{ $activity_data->april }} </div>
-                                <div class="card-body my-3"><strong>May: </strong>{{ $activity_data->may }} </div>
-                                <div class="card-body my-3"><strong>June: </strong>{{ $activity_data->june }} </div>
-                                <div class="card-body my-3"><strong>July: </strong>{{ $activity_data->july }}</div>
-                                <div class="card-body my-3"><strong>August: </strong>{{ $activity_data->august }} </div> 
-                                <div class="card-body my-3"><strong>September: </strong>{{ $activity_data->september }} </div> 
-                                <div class="card-body my-3"><strong>October: </strong>{{ $activity_data->october }} </div> 
-                                <div class="card-body my-3"><strong>November: </strong>{{ $activity_data->november }} </div> 
-                                <div class="card-body my-3"><strong>December: </strong>{{ $activity_data->december }}</div>        		
 
                             </div>
 

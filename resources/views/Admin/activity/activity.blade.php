@@ -27,19 +27,19 @@
                     
                     <table class="table table-striped">
                       <thead>
-                        <tr>
+                        <tr> 
                           <th>
-                            #
+                           <h4> # </h5>
                           </th>
                           <th>
-                            Year
+                           <h4>Year</h5> 
                           </th>
                           <th>
-                            January
                           </th>
                           <th>
-                            Action
+                            <h4>Action</h5>
                           </th>
+                        </h4>
                         </tr>
                       </thead>
                       <tbody>
@@ -49,22 +49,30 @@
                         @foreach($activity as $row)
                         <tr>
                           <td>
-                            {{ $count++ }}
+                            <h5> {{ $count++ }} </h5>
                           </td>
                           <td>
-                            {{ $row->year }}
+                            <h5>{{ $row->year }}</h5>                          
+                          </td>                        
+                          <td>
+                            <a href="{{ route('show.activity', ['id' => $row->id]) }}"><button type="button" class="btn btn-outline-primary btn-icon-text">
+                              <i class="ti-book btn-icon-prepend"></i>
+                              Read
+                            </button> </a>
                           </td>
                           <td>
-                            {!! $row->january !!}
+                            
+                            <a href="{{ route('edit.activity', ['id' => $row->id]) }}"><button type="button" class="btn btn-outline-warning btn-icon-text">
+                              <i class="ti-pencil-alt btn-icon-append"></i> 
+                               Edit
+                            </button> </a>
                           </td>
+              
                           <td>
-                            <a href="{{ route('edit.activity', ['id' => $row->id]) }}"> Edit </a>
-                          </td>
-                          <td>
-                            <a href="{{ route('delete.activity', ['id' => $row->id]) }}"  onclick="return confirm('Are you sure?')" class="btn btn-danger btn-rounded btn-fw">Delete</a>
-                          </td>
-                          <td>
-                            <a href="{{ route('show.activity', ['id' => $row->id]) }}" class="">Read </a>
+                            <a href="{{ route('delete.activity', ['id' => $row->id]) }}"  onclick="return confirm('Are you sure?')"><button type="button" class="btn btn-outline-danger btn-icon-text">
+                              <i class="ti-trash btn-icon-prepend"></i>                                                    
+                              Delete
+                            </button></a>
                           </td>
                         </tr>
                          @endforeach
