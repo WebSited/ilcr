@@ -3,8 +3,7 @@
 --------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@300;500&display=swap");
 
 * {
     margin: 0;
@@ -13,7 +12,7 @@
 }
 
 body {
-    font-family: 'Palanquin', sans-serif;
+    font-family: "Palanquin", sans-serif;
     color: #444444;
 }
 
@@ -32,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Palanquin', sans-serif;
+    font-family: "Palanquin", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -72,7 +71,7 @@ h6 {
 #header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 20px 0;
+    padding: 2px 0;
     background: rgba(26, 128, 43, 0.9);
 }
 
@@ -82,7 +81,7 @@ h6 {
 
 #header.header-scrolled {
     background: rgba(26, 128, 43, 0.9);
-    padding: 15px 0;
+    padding: 4px 0;
 }
 
 #header .logo {
@@ -111,7 +110,7 @@ ul.new_list li {
 }
 
 #header .logo img {
-    max-height: 40px;
+    max-height: 75px;
 }
 
 @media (max-width: 992px) {
