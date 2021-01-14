@@ -49,6 +49,9 @@ class TeamController extends Controller
             'name' => 'required',
             'rank' => 'required',
             'website' => 'required',
+            'email' => 'required',
+            'category' => 'required',
+            'phone_number' => 'required',
             'img' => 'required|image|mimes:jpeg,png,jpg'
         ]);
 
@@ -64,6 +67,9 @@ class TeamController extends Controller
         $team->name = $request->name;
         $team->rank = $request->rank;
         $team->website = $request->website;
+        $team->email = $request->email;
+        $team->category = $request->category;
+        $team->phone_number = $request->phone_number;
         $team->img = $name;
 
         $team->save(); 
@@ -110,6 +116,9 @@ class TeamController extends Controller
             'name' => 'required',
             'rank' => 'required',
             'website' => 'required',
+            'email' => 'required',
+            'category' => 'required',
+            'phone_number' => 'required'
 
         ]);
 
@@ -126,6 +135,10 @@ class TeamController extends Controller
         $team->name = $request->name;
         $team->rank = $request->rank;
         $team->website = $request->website;
+        $team->email = $request->email;
+        $team->category = $request->category;
+        $team->phone_number = $request->phone_number;
+        
         $team->save();
 
         return redirect('/admin/team')->with('success', 'Member updated successfully'); 

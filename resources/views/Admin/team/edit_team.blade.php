@@ -27,12 +27,28 @@
           <input type="text" class="form-control" name="name" value="{{ $team->name }}" id="exampleInputName1" placeholder="Name" required>
         </div>
         <div class="form-group">
+          <label for="exampleInputName1">Email</label>
+          <input type="email" class="form-control" name="email" value="{{ $team->email }}" id="exampleInputName1" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputName1">Phone No.</label>
+          <input type="text" class="form-control" name="phone_number" value="{{ $team->phone_number }}" id="exampleInputName1" placeholder="Rank" required>
+        </div>
+        <div class="form-group">
           <label for="exampleInputName1">Rank</label>
           <input type="text" class="form-control" name="rank" value="{{ $team->rank }}" id="exampleInputName1" placeholder="Rank" required>
         </div>
         <div class="form-group">
           <label for="exampleInputName1">Website</label>
           <input type="text" class="form-control" name="website" id="exampleInputName1" value="{{ $team->website }}" placeholder="Website" required>
+        </div>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select name="category" id="category" class="form-control-sm form-control" required>
+              <option value="{{ $team->category }}" hidden>{{ $team->category }}</option>
+              <option value="top">Top</option>
+              <option value="others">Others</option>
+          </select>
         </div>
 
         <div class="form-group">

@@ -37,10 +37,10 @@
                             Name
                           </th>
                           <th>
-                            Rank
+                            Email
                           </th>
                           <th>
-                            Website
+                            Rank
                           </th>
                           <th>
                             Action
@@ -57,10 +57,10 @@
                             {{ $row->name }}
                           </td>
                           <td>
-                            {{ $row->rank }}
+                            {{ $row->email }}
                           </td>
                           <td>
-                            {{ $row->website }}
+                            {{ $row->rank }}
                           </td>
                           <td>
                             <a href="{{ route('edit.team', ['id' => $row->id]) }}"> Edit |</a><a href="/admin/team/delete/{{ $row->id }}"> Delete</a>

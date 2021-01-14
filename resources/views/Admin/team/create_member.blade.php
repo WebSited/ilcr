@@ -29,6 +29,14 @@
           <input type="text" class="form-control" name="name" id="exampleInputName1" placeholder="Name" required>
         </div>
         <div class="form-group">
+          <label for="exampleInputName1">Email</label>
+          <input type="email" class="form-control" name="email" id="exampleInputName1" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputName1">Phone No.</label>
+          <input type="text" class="form-control" name="phone_number" id="exampleInputName1" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group">
           <label for="exampleInputName1">Rank</label>
           <input type="text" class="form-control" name="rank" id="exampleInputName1" placeholder="Rank" required>
         </div>
@@ -36,6 +44,14 @@
         <div class="form-group">
           <label for="exampleInputName1">Website</label>
           <input type="text" class="form-control" name="website" id="exampleInputName1" placeholder="Website" required>
+        </div>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select name="category" id="category" class="form-control-sm form-control" required>
+              <option value="" disabled selected hidden>Please select</option>
+              <option value="top">Top</option>
+              <option value="others">Others</option>
+          </select>
         </div>
         <div class="form-group">
           <label>File upload</label>

@@ -20,6 +20,7 @@ class CreateTeamsTable extends Migration
             $table->string('email')->unique();
             $table->string('rank');
             $table->string('website');
+            $table->string('category');
             $table->string('img');
             $table->timestamps();
         });
