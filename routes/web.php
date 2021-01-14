@@ -19,6 +19,7 @@ Route::get('/masters', 'PagesController@masters')->name('masters');
 Route::get('/training', 'PagesController@training')->name('training');
 Route::get('/pgd', 'PagesController@pgd')->name('pgd');
 Route::get('/activities', 'PagesController@activities')->name('activities');
+Route::get('/activity/single/{id}', 'PagesController@singleshow')->name('show.single.activity');
 
 Auth::routes();
 
@@ -39,4 +40,6 @@ Route::post('admin/activity/store', 'ActivityController@store')->name('store.act
 Route::get('/admin/activity/{id}', 'Activity@show')->name('show.activity');
 Route::get('admin/activity/edit/{id}', 'ActivityController@edit')->name('edit.activity');
 Route::post('admin/activity/update/{id}', 'ActivityController@update')->name('update.activity');
+Route::get('admin/activity/delete/{id}', 'ActivityController@destroy')->name('delete.activity');
+Route::get('/admin/activity/{id}', 'ActivityController@show')->name('show.activity');
 

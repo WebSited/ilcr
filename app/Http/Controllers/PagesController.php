@@ -1,14 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\DB;
+use App\Activity;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
     public function index()
     {
-        return view('home');
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('home', ['single_activity' => $single_activity]);
     }
 
     public function about()
@@ -16,9 +18,11 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
-    public function activities()
+    public function singleshow($activity)
     {
-        return view('pages.activities');
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        $activity_single = Activity::find($activity);   
+        return view('pages.activities', compact('activity_single', 'single_activity'));
     }
 
     public function masters()

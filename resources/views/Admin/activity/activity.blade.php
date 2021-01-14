@@ -35,10 +35,7 @@
                             Year
                           </th>
                           <th>
-                            Month
-                          </th>
-                          <th>
-                            Activity
+                            January
                           </th>
                           <th>
                             Action
@@ -58,13 +55,16 @@
                             {{ $row->year }}
                           </td>
                           <td>
-                            {{ $row->month }}
-                          </td>
-                          <td>
-                            {!! $row->body !!}
+                            {!! $row->january !!}
                           </td>
                           <td>
                             <a href="{{ route('edit.activity', ['id' => $row->id]) }}"> Edit </a>
+                          </td>
+                          <td>
+                            <a href="{{ route('delete.activity', ['id' => $row->id]) }}"  onclick="return confirm('Are you sure?')" class="btn btn-danger btn-rounded btn-fw">Delete</a>
+                          </td>
+                          <td>
+                            <a href="{{ route('show.activity', ['id' => $row->id]) }}" class="">Read </a>
                           </td>
                         </tr>
                          @endforeach

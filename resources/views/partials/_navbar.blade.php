@@ -23,7 +23,13 @@
           </ul>
         </li>
         <li><a href="{{ route('home') }}#contact">CONTACT US</a></li>
-        <li><a href="{{ route('activities') }}">ACTIVITIES</a></li>
+        <li class="drop-down"><a href="#">ACTIVITIES</a>
+          <ul>
+            @foreach($single_activity as $row)
+            <li><a href="{{ route('show.single.activity', ['id' => $row->id]) }}">{{ $row->year }}</a></li>
+            @endforeach
+          </ul>
+        </li>
 
       </ul>
     </nav><!-- .nav-menu -->
