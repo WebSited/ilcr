@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use App\Activity;
+use Image;
 use Illuminate\Http\Request;
+use App\Mail\SendMailable;
 
 class PagesController extends Controller
 {
@@ -49,7 +51,7 @@ class PagesController extends Controller
             'message' => 'required'
         ]);
 
-        $admin_mail = 'ilcr@futminna.edu.ng';
+        $admin_mail = 'inst4lcr@gmail.com';
         \Mail::to($admin_mail)->send(new SendMailable($data));
         return redirect(route('home'))->with('message', 'Thank You for your message. We will be in touch.');
     }

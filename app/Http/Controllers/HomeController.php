@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Image;
 use App\Team;
 use App\Activity;
 use Illuminate\Http\Request;
