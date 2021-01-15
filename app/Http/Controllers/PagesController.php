@@ -11,13 +11,20 @@ class PagesController extends Controller
 {
     public function index()
     {
+        $first_team = DB::table('teams')->where('category', 'Top')->orderBy('created_at', 'desc')->get();
+        $second_team = DB::table('teams')->where('category', 'Others')->orderBy('created_at', 'desc')->get();
         $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
-        return view('home', ['single_activity' => $single_activity]);
+        return view('home', [
+            'single_activity' => $single_activity,
+            'first_team' => $first_team,
+            'second_team' => $second_team,
+            ]);
     }
 
     public function about()
     {
-        return view('pages.about');
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('pages.about', ['single_activity' => $single_activity]);
     }
 
     public function singleshow($activity)
@@ -29,17 +36,20 @@ class PagesController extends Controller
 
     public function masters()
     {
-        return view('pages.masters');
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('pages.masters', ['single_activity' => $single_activity]);
     }
 
     public function training()
     {
-        return view('pages.training');
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('pages.training', ['single_activity' => $single_activity]);
     }
 
     public function pgd()
     {
-        return view('pages.pgd');
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('pages.pgd', ['single_activity' => $single_activity]);
     }
 
     public function mail(Request $request)

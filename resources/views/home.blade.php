@@ -102,7 +102,7 @@
             </div>
 
             <div class="row">
-
+                @foreach($first_team as $team)
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member">
                         <div class="member-img">
@@ -114,14 +114,37 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Prof. Kemiki O.A</h4>
-                            <span><b>Consultant</b></span>
-                            <span>Telephone: <b>0810 798 6162</b></span>
-                            <span>Email: <b>isthisokay@gmail.com</b></span>
-                            <span>Website: <b>https://hiswebsite.com</b></span>
+                            <h4>{{ $team->name }}</h4>
+                            <span><b>{{ $team->rank }}</b></span>
+                            <span>Telephone: <b>{{ $team->phone_number }}</b></span>
+                            <span>Email: <b>{{ $team->email }}</b></span>
+                            <span>Website: <b>{{ $team->website }}</b></span>
                         </div>
                     </div>
                 </div>
+                @endforeach
+                @foreach($second_team as $team)
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href=""><i class="icofont-web"></i></a>
+                                <a href=""><i class="icofont-info-circle"></i></a>
+                                <a href=""><i class="icofont-phone-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>{{ $team->name }}</h4>
+                            <span><b>{{ $team->rank }}</b></span>
+                            <span>Telephone: <b>{{ $team->phone_number }}</b></span>
+                            <span>Email: <b>{{ $team->email }}</b></span>
+                            <span>Website: <b>{{ $team->website }}</b></span>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+                
 
             </div>
 
@@ -157,13 +180,14 @@
                                 <i class="bx bx-envelope"></i>
                                 <h3>Email Us</h3>
                                 <p>ilcr@futminna.edu.ng</p>
+                                <p>inst4lcr@gmail.com</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box mt-4">
                                 <i class="bx bx-phone-call"></i>
                                 <h3>Call Us</h3>
-                                <p>+234-7036 411810<br>+234 8022 135691</p>
+                                <p>+234-7036 411810<br>+234-8022 135691</p>
                             </div>
                         </div>
                     </div>

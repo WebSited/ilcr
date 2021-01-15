@@ -12,5 +12,4 @@ Dear Admin,
 
 {{ $data['message']}}
 
-Please respond promptly to this enquiry
 @endcomponent
