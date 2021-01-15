@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch m-a" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-4 col-md-4 " data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box iconbox-blue">
                             <div class="icon">
                             </div>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-4 " data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon-box iconbox-orange">
                             <h4 class="pt-3"><a href=""><b> MASTERS DEGREE </b></a></h4>
                             <ul style="list-style-type: none; font-size: 0.9rem;">
@@ -101,7 +101,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="col-lg-4 col-md-4" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box iconbox-pink">
                             <h4 class="pt-3"><a href=""><b> SHORT TRAININGS </b></a></h4>
                             <p>Coming Soon</p><br>
