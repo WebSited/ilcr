@@ -355,7 +355,7 @@ ul.new_list li {
     background: url("../img/land_2.jpg") top center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 5s;
+    transition: 10s;
     position: relative;
 
     animation-name: animate;
@@ -369,22 +369,22 @@ ul.new_list li {
 
 @keyframes animate{
     0%{
-        background-image: url("../img/land_3.jpg");
+        background-image: url("../img/new_photo1.jpg");
     }
     20%{
-        background-image: url("../img/land_4.jpg");
+        background-image: url("../img/new_photo1.jpg");
     }
     40%{
-        background-image: url("../img/land_5.jpg");
+        background-image: url("../img/new_photo2.jpg");
     }
     60%{
-        background-image: url("../img/land_7.jpg");
+        background-image: url("../img/new_photo2.jpg");
     }
     80%{
-        background-image: url("../img/land_4.jpg");
+        background-image: url("../img/new_photo1.jpg");
     }
     100%{
-        background-image: url("../img/land_4.jpg");
+        background-image: url("../img/land_2.jpg");
     }
 }
 
