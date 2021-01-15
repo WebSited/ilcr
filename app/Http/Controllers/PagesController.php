@@ -52,6 +52,18 @@ class PagesController extends Controller
         return view('pages.pgd', ['single_activity' => $single_activity]);
     }
 
+    public function mastersfm()
+    {
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('pages.masters_fm', ['single_activity' => $single_activity]);
+    }
+
+    public function pgdfm()
+    {
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('pages.pgd_fm', ['single_activity' => $single_activity]);
+    }
+
     public function mail(Request $request)
     {
         $data = request()->validate([

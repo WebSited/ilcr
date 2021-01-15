@@ -22,8 +22,8 @@
             </li>
             <li class="drop-down"><a href="#">CENTER FOR FACILITY MANAGEMENT</a>
               <ul>
-                <li><a href="{{ route('masters') }}">M. Tech Facility Management</a></li>
-                <li><a href="{{ route('pgd') }}">PGD Facility Management</a></li>
+                <li><a href="{{ route('mastersfm') }}">M. Tech Facility Management</a></li>
+                <li><a href="{{ route('pgdfm') }}">PGD Facility Management</a></li>
               </ul>
             </li>
           </ul>

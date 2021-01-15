@@ -18,6 +18,8 @@ Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/masters', 'PagesController@masters')->name('masters');
 Route::get('/training', 'PagesController@training')->name('training');
 Route::get('/pgd', 'PagesController@pgd')->name('pgd');
+Route::get('/mastersfm', 'PagesController@mastersfm')->name('mastersfm');
+Route::get('/pgdfm', 'PagesController@pgdfm')->name('pgdfm');
 Route::get('/activities', 'PagesController@activities')->name('activities');
 Route::get('/activity/single/{id}', 'PagesController@singleshow')->name('show.single.activity');
 Route::post('/contact', 'PagesController@mail')->name('sendmail');
