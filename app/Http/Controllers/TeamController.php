@@ -55,12 +55,12 @@ class TeamController extends Controller
             'img' => 'required|image|mimes:jpeg,png,jpg'
         ]);
 
-        $path = public_path().'/img/teams';      
+        $path = public_path().'/img/team/';
         $originalImage = $request->file('img');
         $name = time().$originalImage->getClientOriginalName();
         $image = Image::make($originalImage);
         $image->resize(718, 486);
-        $image->save($path.$name); 
+        $image->save($path.$name);
         
         $team = new Team();
 
