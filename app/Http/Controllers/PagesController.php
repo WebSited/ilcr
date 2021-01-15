@@ -53,7 +53,7 @@ class PagesController extends Controller
 
         $admin_mail = 'inst4lcr@gmail.com';
         \Mail::to($admin_mail)->send(new SendMailable($data));
-        return redirect(route('home'))->with('message', 'Thank You for your message. We will be in touch.');
+        return redirect('/#contact')->with('message', 'Thank You for your message. We will be in touch.');
     }
 
 }
