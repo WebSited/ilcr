@@ -16,18 +16,7 @@ class CreateActivitiesTable extends Migration
         Schema::create('activities', function (Blueprint $table) {
             $table->id();
             $table->string('year');
-            $table->text('january');
-            $table->text('february');
-            $table->text('march');
-            $table->text('april');
-            $table->text('may');
-            $table->text('june');
-            $table->text('july');
-            $table->text('august');
-            $table->text('september');
-            $table->text('october');
-            $table->text('november');
-            $table->text('december');
+            $table->text('acts');
             $table->timestamps();
         });
     }

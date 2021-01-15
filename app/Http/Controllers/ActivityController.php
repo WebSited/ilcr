@@ -45,35 +45,12 @@ class ActivityController extends Controller
     {
         $this->validate($request, [
             'year' => 'required',
-            'january' => 'required',
-            'february' => 'required',
-            'march' => 'required',
-            'april' => 'required',
-            'may' => 'required',
-            'june' => 'required',
-            'july' => 'required',
-            'august' => 'required',
-            'september' => 'required',
-            'october' => 'required',
-            'november' => 'required',
-            'december' => 'required'
+            'acts' => 'required',
         ]);
                 
         $activity = new Activity();
         $activity->year = $request->year;
-        $activity->january = $request->january;
-        $activity->february = $request->february;
-        $activity->march = $request->march;
-        $activity->april = $request->april;
-        $activity->may = $request->may;
-        $activity->june = $request->june;
-        $activity->july = $request->july;
-        $activity->august = $request->august;
-        $activity->september = $request->september;
-        $activity->october = $request->october;
-        $activity->november = $request->november;
-        $activity->december = $request->december;
-
+        $activity->acts = $request->acts;
         $activity->save(); 
         $request->session()->flash('success', 'Activity Added successfully');
         return redirect()->route('admin.activity');  
@@ -115,33 +92,11 @@ class ActivityController extends Controller
 
         $this->validate($request, [
             'year' => 'required',
-            'january' => 'required',
-            'february' => 'required',
-            'march' => 'required',
-            'april' => 'required',
-            'may' => 'required',
-            'june' => 'required',
-            'july' => 'required',
-            'august' => 'required',
-            'september' => 'required',
-            'october' => 'required',
-            'november' => 'required',
-            'december' => 'required'
+            'acts' => 'required',
             ]);
         $data = array(
             'year' => $request->input('year'),
-            'january' => $request->input('january'),
-            'february' => $request->input('february'),
-            'march' => $request->input('march'),
-            'april' => $request->input('april'),
-            'may' => $request->input('may'),
-            'june' => $request->input('june'),
-            'july' => $request->input('july'),
-            'august' => $request->input('august'),
-            'september' => $request->input('september'),
-            'october' => $request->input('october'),
-            'november' => $request->input('november'),
-            'december' => $request->input('december'),
+            'acts' => $request->input('january'),
         );       
         Activity::where('id', $id)->update($data);
         return redirect('/admin/activity')->with('success', 'Activity updated successfully'); 
