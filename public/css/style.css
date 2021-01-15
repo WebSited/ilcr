@@ -354,7 +354,38 @@ ul.new_list li {
     height: 100vh;
     background: url("../img/land_2.jpg") top center;
     background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
     position: relative;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url("../img/land_3.jpg");
+    }
+    20%{
+        background-image: url("../img/land_4.jpg");
+    }
+    40%{
+        background-image: url("../img/land_5.jpg");
+    }
+    60%{
+        background-image: url("../img/land_7.jpg");
+    }
+    80%{
+        background-image: url("../img/land_4.jpg");
+    }
+    100%{
+        background-image: url("../img/land_4.jpg");
+    }
 }
 
 #hero:before {
