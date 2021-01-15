@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//front section
 Route::get('/', 'PagesController@index')->name('home');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/masters', 'PagesController@masters')->name('masters');
@@ -22,10 +22,10 @@ Route::get('/activities', 'PagesController@activities')->name('activities');
 Route::get('/activity/single/{id}', 'PagesController@singleshow')->name('show.single.activity');
 Route::post('/contact', 'PagesController@mail')->name('sendmail');
 
+
+//Admin section
 Auth::routes();
-
 Route::get('/admin', 'HomeController@index')->name('admin.home');
-
 //Team section
 Route::get('/admin/team', 'TeamController@index')->name('admin.team');
 Route::get('/admin/team/create', 'TeamController@create')->name('admin.team.create');
@@ -33,7 +33,6 @@ Route::post('admin/team/store', 'TeamController@store')->name('store.team');
 Route::get('admin/team/edit/{id}', 'TeamController@edit')->name('edit.team');
 Route::post('admin/team/update/{id}', 'TeamController@update')->name('update.team');
 Route::get('/admin/team/delete/{team}', 'TeamController@destroy');
-
 //Activity section
 Route::get('/admin/activity', 'ActivityController@index')->name('admin.activity');
 Route::get('/admin/activity/create', 'ActivityController@create')->name('admin.activity.create'); 
