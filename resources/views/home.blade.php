@@ -151,7 +151,7 @@
                         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                             <div class="member">
                                 <div class="member-img">
-                                    <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                    <img src="{{ asset('img/team/'.$team->img) }}" class="img-fluid" alt="">
                                     <div class="social">
                                         <a href=""><i class="icofont-web"></i></a>
                                         <a href=""><i class="icofont-info-circle"></i></a>

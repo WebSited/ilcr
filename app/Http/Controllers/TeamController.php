@@ -124,7 +124,7 @@ class TeamController extends Controller
 
         if ($request->hasFile('img')){ 
 
-        $path = public_path().'/img/teams';      
+        $path = public_path().'/img/team/';      
         $originalImage = $request->file('img');
         $name = time().$originalImage->getClientOriginalName();
         $image = Image::make($originalImage);

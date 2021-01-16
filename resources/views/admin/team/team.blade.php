@@ -51,7 +51,7 @@
                         @foreach($team as $row)
                         <tr>
                           <td class="py-1">
-                            <img src="{{ asset('/img/teams'.$row->img) }}" alt="image"/>
+                            <img src="{{ asset('/img/team/'.$row->img) }}" alt="image"/>
                           </td>
                           <td>
                             {{ $row->name }}

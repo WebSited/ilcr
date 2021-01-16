@@ -29,7 +29,7 @@
         
         <div class="form-group">
           <label for="exampleInputName1">Activities</label>
-          <textarea name="january" id="editor1" rows="10" cols="80">
+          <textarea name="acts" id="editor1" rows="10" cols="80">
             {{ $activity->acts }}
         </textarea>
         <script>

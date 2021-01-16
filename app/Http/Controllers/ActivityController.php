@@ -96,7 +96,7 @@ class ActivityController extends Controller
             ]);
         $data = array(
             'year' => $request->input('year'),
-            'acts' => $request->input('january'),
+            'acts' => $request->input('acts'),
         );       
         Activity::where('id', $id)->update($data);
         return redirect('/admin/activity')->with('success', 'Activity updated successfully'); 
