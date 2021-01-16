@@ -15,7 +15,8 @@
 
             <div class="section-title">
                 <h2>{{ $activity_single->year }} Activities</h2>
-                <p></p>
+                <p><br><br></p>
+
             </div>
             {!! $activity_single->acts !!}
 
