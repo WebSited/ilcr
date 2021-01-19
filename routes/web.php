@@ -44,4 +44,18 @@ Route::get('admin/activity/edit/{id}', 'ActivityController@edit')->name('edit.ac
 Route::post('admin/activity/update/{id}', 'ActivityController@update')->name('update.activity');
 Route::get('admin/activity/delete/{id}', 'ActivityController@destroy')->name('delete.activity');
 Route::get('/admin/activity/{id}', 'ActivityController@show')->name('show.activity');
+//Gallery section
+Route::get('/admin/gallery', 'GalleryController@index')->name('admin.gallery');
+Route::get('/admin/gallery/create', 'GalleryController@create')->name('admin.gallery.create');
+Route::post('admin/gallery/store', 'GalleryController@store')->name('store.gallery');
+Route::get('admin/gallery/edit/{id}', 'GalleryController@edit')->name('edit.gallery');
+Route::post('admin/gallery/update/{id}', 'GalleryController@update')->name('update.gallery');
+Route::get('/admin/gallery/delete/{gallery}', 'GalleryController@destroy');
+//News section
+Route::get('/admin/news', 'NewsController@index')->name('admin.news');
+Route::get('/admin/news/create', 'NewsController@create')->name('admin.news.create');
+Route::post('admin/news/store', 'NewsController@store')->name('store.news');
+Route::get('admin/news/edit/{id}', 'NewsController@edit')->name('edit.news');
+Route::post('admin/news/update/{id}', 'NewsController@update')->name('update.news');
+Route::get('/admin/news/delete/{news}', 'NewsController@destroy');
 

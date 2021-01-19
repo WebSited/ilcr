@@ -63,7 +63,7 @@
                             {{ $row->rank }}
                           </td>
                           <td>
-                            <a href="{{ route('edit.team', ['id' => $row->id]) }}"> Edit |</a><a href="/admin/team/delete/{{ $row->id }}"> Delete</a>
+                            <a href="{{ route('edit.team', ['id' => $row->id]) }}"> Edit |</a><a href="/admin/team/delete/{{ $row->id }}"  onclick="return confirm('Are you sure?')"> Delete</a>
                           </td>
                         </tr>
                          @endforeach

@@ -63,9 +63,37 @@
           </li>
 
           <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#auth2" aria-expanded="false" aria-controls="auth2">
+              <i class="ti-gallery menu-icon"></i>
+              <span class="menu-title">Gallery</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth2">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.gallery') }}"> Gallery </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.gallery.create') }}">Add Gallery</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#auth3" aria-expanded="false" aria-controls="auth3">
+              <i class="ti-desktop menu-icon"></i>
+              <span class="menu-title">News</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth3">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.news') }}"> News </a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.news.create') }}">Add News</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link" href="{{ route('logout') }}"
                 onclick="event.preventDefault();
-                            document.getElementById('logout-form').submit();"><i class="ti-power-off text-primary" style="padding-right: 20px"> </i>
+                            document.getElementById('logout-form').submit();" ><i class="ti-power-off text-primary" style="padding-right: 20px"> </i>
                 {{ __('Logout') }}
             </a>
 
