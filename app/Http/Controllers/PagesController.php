@@ -78,4 +78,11 @@ class PagesController extends Controller
         return redirect('/#contact')->with('message', 'Thank You for your message. We will be in touch.');
     }
 
+    public function getNews(){
+        return view('pages.news');
+    }
+    public function getGallery(){
+        return view('pages.gallery');
+    }
+
 }
