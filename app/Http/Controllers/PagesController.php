@@ -82,6 +82,12 @@ class PagesController extends Controller
         $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
         return view('pages.news', ['single_activity' => $single_activity]);
     }
+
+    public function getNews_Single(){
+        $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
+        return view('pages.news_single', ['single_activity' => $single_activity]);
+    }
+
     public function getGallery(){
         $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
         return view('pages.gallery', ['single_activity' => $single_activity]);

@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 //front section
 Route::get('/', 'PagesController@index')->name('home');
 Route::get('news', 'PagesController@getNews')->name('news');
+Route::get('news_single', 'PagesController@getNews_Single')->name('news_single');
 Route::get('gallery', 'PagesController@getGallery')->name('gallery');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/masters', 'PagesController@masters')->name('masters');
