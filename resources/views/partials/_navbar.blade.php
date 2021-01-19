@@ -33,7 +33,7 @@
         <li><a href="{{ route('home') }}#contact">CONTACT US</a></li>
         <li class="drop-down"><a href="#">ACTIVITIES</a>
           <ul>
-            @foreach($single_activity ?? '' as $row)
+            @foreach($single_activity as $row)
             <li><a href="{{ route('show.single.activity', ['id' => $row->id]) }}">{{ $row->year }}</a></li>
             @endforeach
           </ul>
