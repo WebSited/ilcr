@@ -7,13 +7,9 @@
 }
 </style>
 <!-- ======= Intro Section ======= -->
-  <section id="intro" style="margin-top: 80px;">
+  <section id="intro">
     <div class="intro-content">
       <h2>Postgraduate Diploma in <span>Facility <br> Management</span></h2>
-      <div>
-      <a href="https://eportal.futminna.edu.ng/pg/instructions.php" class="btn-get-started scrollto">Apply</a>
-        <a href="https://eportal.futminna.edu.ng/pg/admstatus/index.htm" class="btn-projects scrollto">Check Admission</a>
-      </div>
     </div>
   </section><!-- End Intro Section -->
 
@@ -115,4 +111,12 @@
       </div>
     </section>
     <!-- End Clients Section -->
+    <section id="intro">
+    <div class="intro-content">
+      <div>
+        <a href="https://eportal.futminna.edu.ng/pg/instructions.php" class="btn-get-started scrollto">Apply</a>
+        <a href="https://eportal.futminna.edu.ng/pg/admstatus/index.htm" class="btn-projects scrollto">Check Admission</a>
+      </div>
+    </div>
+  </section><!-- End Intro Section -->
 @endsection
