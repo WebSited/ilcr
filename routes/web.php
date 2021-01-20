@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 //front section
 Route::get('/', 'PagesController@index')->name('home');
 Route::get('news', 'PagesController@getNews')->name('news');
-Route::get('news_single', 'PagesController@getNews_Single')->name('news_single');
+Route::get('news/{id}', 'PagesController@News_show')->name('show.news');
 Route::get('gallery', 'PagesController@getGallery')->name('gallery');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/masters', 'PagesController@masters')->name('masters');
@@ -42,7 +42,7 @@ Route::get('/admin/team/delete/{team}', 'TeamController@destroy');
 Route::get('/admin/activity', 'ActivityController@index')->name('admin.activity');
 Route::get('/admin/activity/create', 'ActivityController@create')->name('admin.activity.create'); 
 Route::post('admin/activity/store', 'ActivityController@store')->name('store.activity');
-Route::get('/admin/activity/{id}', 'Activity@show')->name('show.activity');
+Route::get('/admin/activity/{id}', 'ActivityController@show')->name('show.activity');
 Route::get('admin/activity/edit/{id}', 'ActivityController@edit')->name('edit.activity');
 Route::post('admin/activity/update/{id}', 'ActivityController@update')->name('update.activity');
 Route::get('admin/activity/delete/{id}', 'ActivityController@destroy')->name('delete.activity');

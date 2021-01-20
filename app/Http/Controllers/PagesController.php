@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use App\Activity;
+use App\News;
 use Image;
 use Illuminate\Http\Request;
 use App\Mail\SendMailable;
@@ -80,17 +81,20 @@ class PagesController extends Controller
 
     public function getNews(){
         $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
-        return view('pages.news', ['single_activity' => $single_activity]);
+        $front_news = DB::table('news')->orderBy('created_at', 'desc')->get();
+        return view('pages.news', ['single_activity' => $single_activity, 'front_news' => $front_news]);
     }
 
-    public function getNews_Single(){
+    public function News_show($news){
         $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
-        return view('pages.news_single', ['single_activity' => $single_activity]);
+        $news_data = News::find($news);   
+        return view('pages.news_single', ['single_activity' => $single_activity, 'news_data' => $news_data]);
     }
 
     public function getGallery(){
         $single_activity = DB::table('activities')->orderBy('created_at', 'desc')->get();
-        return view('pages.gallery', ['single_activity' => $single_activity]);
+        $front_gallery = DB::table('galleries')->orderBy('created_at', 'desc')->get();
+        return view('pages.gallery', ['front_gallery' => $front_gallery,'single_activity' => $single_activity]);
     }
 
 }

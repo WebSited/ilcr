@@ -33,6 +33,8 @@ class HomeController extends Controller
     {
         $team = DB::table('teams')->get();
         $activity = DB::table('activities')->get();
-        return view('admin.home', compact('team', 'activity'));
+        $gallery = DB::table('galleries')->get();
+        $news = DB::table('news')->get();
+        return view('admin.home', compact('team', 'activity','gallery','news'));
     }
 }
